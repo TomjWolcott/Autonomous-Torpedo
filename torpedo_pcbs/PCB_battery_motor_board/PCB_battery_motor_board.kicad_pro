@@ -442,15 +442,15 @@
     ],
     [
       "c819747e-17ce-4786-8eb7-36550951c2b3",
-      "DC Motor Driver"
+      "DC Motor Driver - Prop"
     ],
     [
       "9ce2ab90-dd94-4f53-b85b-05b43f83ea9b",
-      "DC Motor Driver1"
+      "DC Motor Driver - Rudder-left"
     ],
     [
       "d461f557-dcd2-45b3-a119-100418f0658a",
-      "DC Motor Driver2"
+      "DC Motor Driver - Rudder-right"
     ]
   ],
   "text_variables": {}

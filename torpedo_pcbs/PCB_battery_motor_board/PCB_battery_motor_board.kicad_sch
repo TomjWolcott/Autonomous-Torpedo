@@ -3187,12 +3187,12 @@
 		(uuid "eff13ceb-498e-4940-8d32-aefa3eaf7bbf")
 	)
 	(no_connect
-		(at 201.93 74.93)
-		(uuid "1ff31c3f-dd2c-4154-8aa5-b267fb23aaad")
+		(at 43.18 139.7)
+		(uuid "1890c4b0-751e-4606-b8c7-5f49daeda8e2")
 	)
 	(no_connect
-		(at 173.99 127)
-		(uuid "24c95b4d-5d6e-44e8-9527-2f61666796d0")
+		(at 201.93 74.93)
+		(uuid "1ff31c3f-dd2c-4154-8aa5-b267fb23aaad")
 	)
 	(no_connect
 		(at 201.93 52.07)
@@ -3203,12 +3203,8 @@
 		(uuid "3fec0712-8a27-4bb1-bb6d-f86bd7d97e83")
 	)
 	(no_connect
-		(at 173.99 143.51)
-		(uuid "5078ab72-ed0b-4c50-9f7f-73a3ad284106")
-	)
-	(no_connect
-		(at 43.18 139.7)
-		(uuid "546991d5-2ba2-4315-ba80-0579bfd37ec0")
+		(at 43.18 152.4)
+		(uuid "4028e229-9232-4439-a118-c187391be616")
 	)
 	(no_connect
 		(at 237.49 72.39)
@@ -3225,10 +3221,6 @@
 	(no_connect
 		(at 237.49 44.45)
 		(uuid "af31dc8f-5f6e-4487-b8e0-70284f0ad1df")
-	)
-	(no_connect
-		(at 43.18 152.4)
-		(uuid "e27092a2-6503-4987-9f40-fc8e033c83e9")
 	)
 	(wire
 		(pts
@@ -3342,6 +3334,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 123.19) (xy 30.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cc58b7-2333-476f-88f2-51bbf1b2d4a2")
+	)
+	(wire
+		(pts
 			(xy 24.13 35.56) (xy 30.48 35.56)
 		)
 		(stroke
@@ -3379,6 +3381,16 @@
 			(type default)
 		)
 		(uuid "2a249c8b-bbb7-4d52-a3d2-8e04ca4c8bcd")
+	)
+	(wire
+		(pts
+			(xy 158.75 127) (xy 161.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5b2fcb-3dc4-43ed-8cd9-ce89316f495a")
 	)
 	(wire
 		(pts
@@ -3562,13 +3574,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 168.91) (xy 30.48 168.91)
+			(xy 38.1 123.19) (xy 43.18 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d193160-af92-498e-8cc0-3f9c392c0625")
+		(uuid "4a85eb31-d94b-4202-9a84-65bad4f4ccd0")
 	)
 	(wire
 		(pts
@@ -3599,6 +3611,16 @@
 			(type default)
 		)
 		(uuid "4ff17925-a628-464b-964d-73016307c63a")
+	)
+	(wire
+		(pts
+			(xy 40.64 172.72) (xy 40.64 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5001e29a-b368-4708-ab88-208585348877")
 	)
 	(wire
 		(pts
@@ -3652,16 +3674,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 123.19) (xy 30.48 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56f913a2-7683-43a7-9ae0-c8a906b7ae0f")
-	)
-	(wire
-		(pts
 			(xy 85.09 81.28) (xy 102.87 81.28)
 		)
 		(stroke
@@ -3692,6 +3704,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 127) (xy 173.99 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635c40f7-79ff-4bbb-9261-d79c3aa11591")
+	)
+	(wire
+		(pts
+			(xy 40.64 168.91) (xy 43.18 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f4c54d-85ae-4746-8e18-1d837e264059")
+	)
+	(wire
+		(pts
 			(xy 238.76 27.94) (xy 238.76 29.21)
 		)
 		(stroke
@@ -3719,16 +3751,6 @@
 			(type default)
 		)
 		(uuid "71b0f317-a793-489f-8f54-3e80b4db5a82")
-	)
-	(wire
-		(pts
-			(xy 38.1 123.19) (xy 43.18 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79ee3b1f-1596-474c-bbe2-a43938b13fe3")
 	)
 	(wire
 		(pts
@@ -3772,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 134.62) (xy 166.37 148.59)
+			(xy 162.56 134.62) (xy 162.56 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3902,16 +3924,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 168.91) (xy 43.18 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2871177-08fa-4072-96b5-b4616ca04e88")
-	)
-	(wire
-		(pts
 			(xy 237.49 59.69) (xy 248.92 59.69)
 		)
 		(stroke
@@ -3952,7 +3964,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 134.62) (xy 166.37 134.62)
+			(xy 173.99 134.62) (xy 162.56 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4042,6 +4054,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 128.27) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5578dc-e1c2-4e1c-bb47-5754784ddb61")
+	)
+	(wire
+		(pts
 			(xy 50.8 73.66) (xy 50.8 78.74)
 		)
 		(stroke
@@ -4059,6 +4081,16 @@
 			(type default)
 		)
 		(uuid "ddd44274-6caa-4911-9ba1-3de852a09471")
+	)
+	(wire
+		(pts
+			(xy 171.45 143.51) (xy 173.99 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deee41f3-c334-407c-badc-6029d4fad9bf")
 	)
 	(wire
 		(pts
@@ -4122,6 +4154,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 124.46) (xy 27.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef26b346-dae0-498e-ad26-6237721d7eae")
+	)
+	(wire
+		(pts
 			(xy 57.15 137.16) (xy 62.23 137.16)
 		)
 		(stroke
@@ -4182,6 +4224,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 147.32) (xy 171.45 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc24e4d3-cf22-469e-a088-49586ba61731")
+	)
+	(wire
+		(pts
 			(xy 246.38 46.99) (xy 246.38 48.26)
 		)
 		(stroke
@@ -4223,19 +4275,6 @@
 		(uuid 0b7854e4-699e-48ed-ba5d-8c5a26956f6f)
 	)
 	(rectangle
-		(start 31.75 166.37)
-		(end 38.1 171.45)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 10 255 251 1)
-		)
-		(uuid 79c0b986-4d9c-4175-a9d7-2e5076505fe5)
-	)
-	(rectangle
 		(start 193.04 38.1)
 		(end 199.39 43.18)
 		(stroke
@@ -4262,19 +4301,6 @@
 		(uuid 98d3c95c-db6a-4b5e-ab63-8a5a86f41162)
 	)
 	(rectangle
-		(start 39.37 151.13)
-		(end 46.99 156.21)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 10 255 251 1)
-		)
-		(uuid a8ae8010-28c3-4e98-aaae-a57c1c32b9b6)
-	)
-	(rectangle
 		(start 125.73 24.13)
 		(end 132.08 29.21)
 		(stroke
@@ -4286,19 +4312,6 @@
 			(color 10 255 251 1)
 		)
 		(uuid b6287fc8-43af-440b-aa8c-d6bb295d81ce)
-	)
-	(rectangle
-		(start 31.75 120.65)
-		(end 38.1 125.73)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 10 255 251 1)
-		)
-		(uuid c9d95943-4e25-4885-aa94-74640e798668)
 	)
 	(rectangle
 		(start 264.16 85.09)
@@ -4315,7 +4328,7 @@
 	)
 	(text "Rudder Motors"
 		(exclude_from_sim no)
-		(at 36.322 154.432 90)
+		(at 23.622 154.686 90)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -4355,9 +4368,9 @@
 		)
 		(uuid "2d8f73e1-cdca-40b1-b256-43c7f3b7b61d")
 	)
-	(text "Find the resistance for this, \ndo the other ones have to be \nset to low?"
+	(text "The motor driver pins can be:\n  connected to gnd:    0\n  connected to pow:    1\n  disconnected:      high-z\n\nThis results in 9 possible addresses,\na 2.2kΩ resistor for A0,A1"
 		(exclude_from_sim no)
-		(at 18.542 180.594 0)
+		(at 90.678 171.704 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4451,7 +4464,7 @@
 	)
 	(text "Prop Motor"
 		(exclude_from_sim no)
-		(at 158.496 143.256 90)
+		(at 147.066 143.002 90)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -5216,6 +5229,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 171.45 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ee05a4b-3433-4454-acfa-6bd4b7f8ad40")
+		(property "Reference" "#PWR023"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "924880dd-14a8-44c5-8c76-9e64e41ac551")
+		)
+		(instances
+			(project "PCB_battery_motor_board"
+				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 273.05 129.54 0)
 		(unit 1)
@@ -5630,6 +5709,74 @@
 			(project "PCB_battery_motor_board"
 				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 34.29 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23e54feb-f597-44af-8912-820ff4e914d7")
+		(property "Reference" "R2"
+			(at 34.29 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 34.29 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3db22ac-c569-44e3-9c95-140d3da64e5e")
+		)
+		(pin "2"
+			(uuid "9fe7012e-bb53-471a-986c-95420b3aff83")
+		)
+		(instances
+			(project "PCB_battery_motor_board"
+				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6108,24 +6255,24 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 123.19 90)
+		(at 165.1 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c886b09-1f93-4ee0-ac46-827ecbc2a286")
-		(property "Reference" "R4"
-			(at 34.29 116.84 90)
+		(uuid "40c95c8e-c89f-4c06-b2dc-0e61732b1436")
+		(property "Reference" "R5"
+			(at 165.1 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 34.29 119.38 90)
+		(property "Value" "2.2k"
+			(at 165.1 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +6280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 124.968 90)
+			(at 165.1 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +6289,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 123.19 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +6298,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 123.19 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,16 +6306,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4edcc832-ed82-4844-872c-7af8a664d0e3")
-		)
 		(pin "1"
-			(uuid "5d2ea9f8-6441-4982-9af3-92f350ca2fb2")
+			(uuid "9585bca1-1ee2-40cf-b087-dcdcfe733b95")
+		)
+		(pin "2"
+			(uuid "b6b4d735-c9b5-4332-a1bf-d22ec5774179")
 		)
 		(instances
 			(project "PCB_battery_motor_board"
 				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6315,72 +6462,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 25.4 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "502bebd3-8288-4068-9fac-984ff3c5bf93")
-		(property "Reference" "#PWR025"
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 25.4 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2ef925e-ed67-41a2-ab8e-6e2b0ac5480c")
-		)
-		(instances
-			(project "PCB_battery_motor_board"
-				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 198.12 30.48 90)
 		(unit 1)
@@ -6445,6 +6526,72 @@
 			(project "PCB_battery_motor_board"
 				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51c72881-267c-4b99-b855-9a15778493af")
+		(property "Reference" "#PWR010"
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd143077-694b-4e4d-bab8-f1f67d4ad982")
+		)
+		(instances
+			(project "PCB_battery_motor_board"
+				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7429,6 +7576,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 171.45 151.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a281aaf7-6df4-4642-bc28-978a84fa0deb")
+		(property "Reference" "R4"
+			(at 168.91 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 168.91 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.228 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b26f5728-413d-4a60-9234-d0fff53d71b9")
+		)
+		(pin "1"
+			(uuid "2d452cdf-ccd7-4fb1-95f5-128bd6342983")
+		)
+		(instances
+			(project "PCB_battery_motor_board"
+				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 36.83 53.34 0)
 		(unit 1)
@@ -7863,72 +8080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 25.4 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a841e18d-33e1-4b2f-9678-1f3baf990df0")
-		(property "Reference" "#PWR026"
-			(at 25.4 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 25.4 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a75c6cf4-f2ac-415a-83e9-8e506b177154")
-		)
-		(instances
-			(project "PCB_battery_motor_board"
-				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:B2B-XH-A")
 		(at 60.96 152.4 0)
 		(unit 1)
@@ -8065,6 +8216,72 @@
 			(project "PCB_battery_motor_board"
 				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa4d99d0-84ec-457b-bf23-a9aed7c6e84d")
+		(property "Reference" "#PWR025"
+			(at 158.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b95fe814-a04f-4839-a18c-d6940ab84073")
+		)
+		(instances
+			(project "PCB_battery_motor_board"
+				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8479,6 +8696,142 @@
 			(project "PCB_battery_motor_board"
 				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb380ab1-8aef-4a21-841f-d5470852d1b4")
+		(property "Reference" "#PWR018"
+			(at 27.94 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30c30d2e-bf4f-4c7f-9d73-e4dc081a44e0")
+		)
+		(instances
+			(project "PCB_battery_motor_board"
+				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 176.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf6f8f2d-7849-462d-a4aa-9ce97fe6d497")
+		(property "Reference" "R1"
+			(at 38.1 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 38.1 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 42.418 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8106276c-962d-4894-8b26-a9530a0a510b")
+		)
+		(pin "1"
+			(uuid "6001be8a-5739-454b-961f-d4690a6617b6")
+		)
+		(instances
+			(project "PCB_battery_motor_board"
+				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9030,74 +9383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 34.29 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9d2057a-b5a5-408e-b7ff-be44e3260cdf")
-		(property "Reference" "R5"
-			(at 34.29 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 34.29 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 34.29 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4342a8ec-6bfe-4793-ba5b-de005b9af9f5")
-		)
-		(pin "1"
-			(uuid "eba25994-f63e-481f-82cc-98015705717a")
-		)
-		(instances
-			(project "PCB_battery_motor_board"
-				(path "/9a72423d-1b73-4b12-9acb-0431683ca2f5"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 85.09 77.47 0)
 		(unit 1)
@@ -9315,7 +9600,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9ce2ab90-dd94-4f53-b85b-05b43f83ea9b")
-		(property "Sheetname" "DC Motor Driver1"
+		(property "Sheetname" "DC Motor Driver - Rudder-left"
 			(at 43.18 119.9384 0)
 			(effects
 				(font
@@ -9423,7 +9708,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c819747e-17ce-4786-8eb7-36550951c2b3")
-		(property "Sheetname" "DC Motor Driver"
+		(property "Sheetname" "DC Motor Driver - Prop"
 			(at 173.99 123.7484 0)
 			(effects
 				(font
@@ -9531,7 +9816,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d461f557-dcd2-45b3-a119-100418f0658a")
-		(property "Sheetname" "DC Motor Driver2"
+		(property "Sheetname" "DC Motor Driver - Rudder-right"
 			(at 43.18 149.1484 0)
 			(effects
 				(font
