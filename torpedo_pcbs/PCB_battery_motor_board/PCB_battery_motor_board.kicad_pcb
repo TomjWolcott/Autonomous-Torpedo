@@ -402,6 +402,7 @@
 			(uuid "cc5add32-6799-40f9-b55e-96a501a4318a")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x02_P2.00mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1086,6 +1087,7 @@
 			(uuid "f7f96671-4d3b-4235-9c51-5ac2856ba948")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x02_P2.00mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2959,6 +2961,7 @@
 			(uuid "0443d00b-1be8-47f5-a2d9-decbe924f6b7")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x02_P2.00mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8239,6 +8242,7 @@
 			(uuid "cf2e8d3f-626a-4c37-a67b-42b8acfc6712")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x05_P2.00mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8463,7 +8467,7 @@
 	(footprint "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "afa31f54-23f6-44e8-857e-7faf6de39db0")
-		(at 108.6 86.875 90)
+		(at 109.025 86.825 90)
 		(descr "Through hole straight socket strip, 1x02, 2.00mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.00mm single row")
 		(property "Reference" "J6"
@@ -8713,6 +8717,7 @@
 			(uuid "202f6d51-0438-4565-8fad-75e10a0da832")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x02_P2.00mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10493,6 +10498,7 @@
 			(uuid "68b3666d-6954-4de9-b364-47741d7fab3d")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x04_P2.00mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11387,6 +11393,7 @@
 			(uuid "d5121a61-599a-42ba-87f1-71c791f1a951")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x02_P2.00mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
