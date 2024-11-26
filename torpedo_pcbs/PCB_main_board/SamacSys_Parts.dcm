@@ -78,4 +78,82 @@ K
 F https://www.espressif.com/sites/default/files/documentation/esp-psram64_esp-psram64h_datasheet_en.pdf
 $ENDCMP
 #
+$CMP MAX680CSA+
+D Charge Pump INV/STPUP  10V 10mA
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-18/DSA-340121.pdf
+$ENDCMP
+#
+$CMP ESP32-S3-WROOM-1U-N4
+D Multiprotocol Modules SMD Module, ESP32-S3, 4 MB SPI Flash, IPEX Antenna Connector
+K
+F https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-S3-WROOM-1U-N8
+D Multiprotocol Modules SMD Module, ESP32-S3, 8 MB SPI Flash, IPEX Antenna Connector
+K
+F https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-S3-WROOM-1U-N16
+D Multiprotocol Modules SMD Module, ESP32-S3, 16 MB SPI Flash, IPEX Antenna Connector
+K
+F https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP SN74AHC594PW
+D 8 bit shift registers with output registers
+K
+F http://componentsearchengine.com/Datasheets/1/SN74AHC594PW.pdf
+$ENDCMP
+#
+$CMP USB4125-GF-A
+D USB-C (USB TYPE-C) Receptacle Connector 24 (6+18 Dummy) Position Surface Mount, Right Angle; Through Hole
+K
+F https://gct.co/files/drawings/usb4125.pdf?v=f2858e04-a173-4b74-b17f-8f865ddc3728
+$ENDCMP
+#
+$CMP GSB1C4621DS1HR
+D USB 2.0, Type C, Mid mount, CH 0.58mm, Single Row Surface Mount
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb1c46x1ds1hr.pdf
+$ENDCMP
+#
+$CMP MSD-4-A
+D Memory Card Connectors 9 Positions, Push In, Auto Eject Out, SMT, 1.8 mm Height Above Board,
+K
+F https://www.cuidevices.com/product/resource/pdf/msd-4-a.pdf
+$ENDCMP
+#
+$CMP 222AMVBAR
+D Tactile Switches Gull Wing AF 160gf Act. Dir. Vertical
+K
+F https://www.ctscorp.com/wp-content/uploads/222A.pdf
+$ENDCMP
+#
+$CMP RCLAMP7522T.TNT
+D ESD Suppressors / TVS Diodes RAILCLAMP 0.6PF 5A
+K
+F https://datasheet.datasheetarchive.com/originals/dk/DKDS40/DSANUWW007298.pdf
+$ENDCMP
+#
+$CMP SSM3J328R,LF
+D MOSFET P-Ch Sm Sig FET Id -6A -20V -8VGSS
+K
+F https://componentsearchengine.com/Datasheets/1/SSM3J328R,LF.pdf
+$ENDCMP
+#
+$CMP B3U-1100P
+D Switch Tact,ultra small,top act,grnd trm Button Tactile Switch, SPST-NO 0.05 A@ 12 V dc 0.4mm
+K
+F https://www.omron.com/ecb/products/pdf/en-b3u.pdf
+$ENDCMP
+#
+$CMP CS1213AGF260
+D Tactile Switch SPST-NO Top Actuated Surface Mount
+K
+F https://www.citrelay.com/Catalog%20Pages/SwitchCatalog/CS1213.pdf
+$ENDCMP
+#
 #End Doc Library

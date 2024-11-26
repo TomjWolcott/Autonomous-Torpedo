@@ -96,4 +96,28 @@ K
 F https://www.espressif.com/sites/default/files/documentation/esp-psram64_esp-psram64h_datasheet_en.pdf
 $ENDCMP
 #
+$CMP MAX680CSA+
+D Charge Pump INV/STPUP  10V 10mA
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-18/DSA-340121.pdf
+$ENDCMP
+#
+$CMP ESP32-S3-WROOM-1U-N4
+D Multiprotocol Modules SMD Module, ESP32-S3, 4 MB SPI Flash, IPEX Antenna Connector
+K
+F https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP BQ25601RTWR
+D I2C Controlled Single Cell 3-A Battery Charger with High Input Voltage and Power Path
+K
+F http://www.ti.com/lit/ds/symlink/bq25601.pdf
+$ENDCMP
+#
+$CMP MCP3021A5T-E_OT
+D Analog to Digital Converters - ADC 10-bit I2C Sgl Chnl
+K
+F https://lcsc.componentsearchengine.com/Datasheets/2/MCP3021A5T-E_OT.pdf
+$ENDCMP
+#
 #End Doc Library
