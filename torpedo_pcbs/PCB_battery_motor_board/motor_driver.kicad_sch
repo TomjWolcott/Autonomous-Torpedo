@@ -950,7 +950,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 55.88) (xy 40.64 57.15)
+			(xy 40.64 50.8) (xy 40.64 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +1040,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 55.88) (xy 55.88 62.23)
+			(xy 55.88 50.8) (xy 55.88 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 55.88) (xy 55.88 55.88)
+			(xy 40.64 50.8) (xy 55.88 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1148,27 +1148,49 @@
 		)
 		(uuid "8a63be47-7708-4799-ac0e-72ac6c7896cc")
 	)
-	(label "SYS_PWR"
-		(at 49.53 55.88 180)
+	(global_label "SYS_PWR"
+		(shape input)
+		(at 40.64 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "2f6ddc51-6b54-4deb-9d04-44e75b7d5ac0")
+		(uuid "1585df3c-9dd5-429a-8287-c7ddcf8c2a40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.1882 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "VREF"
+	(global_label "VREF"
+		(shape input)
 		(at 100.33 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "40790ed4-bda4-4535-b956-46f40f4a84f4")
+		(uuid "687d9e27-6665-4b5d-ab83-96397ca7941b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.9114 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "SDA"
 		(shape input)
