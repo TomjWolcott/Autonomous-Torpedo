@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP MS583702BA01-50
+D Dimensions: Dimensions 3.3 x 3.3 x 2.75 MM | Dimensions .13 x .13 x .108 INCH | Electrical Characteristics: Board Level Pressure Sensor Supply Voltage 1.5  3.6 V | Operation/Application: Output Interface I2C | Pressure 2000 MBAR | Output/Span 24 bit ADC | Board Level Pressure Sensor Accuracy +/-0.5mbar | Proof Pressure Range 10 bar | Resolution .016 | Packaging Features: Board Level Pressure Sensor Package Surface Mountable | Product Type Features: Board Level Pressure Sensor Type Digital Pressure and Alt
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5837-02BA01&DocType=Data%20Sheet&DocLang=English&PartCntxt=MS583702BA01-50&DocFormat=pdf
+$ENDCMP
+#
+#End Doc Library
