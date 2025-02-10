@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
@@ -468,7 +468,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../Downloads/Grove_based_board2.step",
       "svg": "",
       "vrml": ""
     },
@@ -576,6 +576,22 @@
     [
       "41eb1e1b-322f-424a-9c09-146cbb8f85bf",
       "Root"
+    ],
+    [
+      "ae2f4bc0-b670-4d1c-9d47-2d5d479924a0",
+      "Motor driver0"
+    ],
+    [
+      "f7d667bc-c374-4b8e-9eb0-d288d6154764",
+      "Motor driver1"
+    ],
+    [
+      "0ce58644-b01f-497f-9475-da2b9fad4313",
+      "Motor driver2"
+    ],
+    [
+      "83cb6c4f-12fd-4eed-adad-81055f4a9769",
+      "Motor driver3"
     ]
   ],
   "text_variables": {}
