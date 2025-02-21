@@ -1,4 +1,4 @@
-23180119907036388
+23202735285663036
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87192,6 +87192,13 @@ rotary encoder
 7
 6
 SamacSys_Parts
+009276008021106
+009276008021106-2
+Connector
+0
+16
+16
+SamacSys_Parts
 17444468
 1744446-8-3
 Connector
@@ -87241,12 +87248,33 @@ Connector
 6
 6
 SamacSys_Parts
+FTSH-107-XX-YYY-DV-K-P-TR
+FTSH-107-XX-YYY-DV-K-P-TR
+Connector
+0
+14
+14
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+PEC12R4017FN0024
+PEC12R-4017F-N0024-3
+Undefined or Miscellaneous
+0
+5
+5
+SamacSys_Parts
+PRS11R415FS103B1
+PRS11R-415F-S103B1
+Variable Resistor
+0
+7
+7
 SamacSys_Parts
 QFN40P300X300X105-25N-D
 24 Lead QFN 3.0x3.0x0.9
@@ -87255,11 +87283,60 @@ Integrated Circuit
 25
 25
 SamacSys_Parts
+QFN50P700X700X60-49N-D
+. UFQFPN48 - 48-lead
+Integrated Circuit
+0
+49
+49
+SamacSys_Parts
 SHDRRA8W64P0X250_1X8_2250X820X420P
 S8B-EH(LF)(SN)
 Connector
 0
 8
+8
+SamacSys_Parts
+SOIC127P600X150-9N
+SO-8EP_2024-1
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON50P200X200X80-9N
+DSG0008A_2023
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SOT95P270X145-5N
+5-Lead (OT) SOT-23
+Transistor
+0
+5
+5
+SamacSys_Parts
+SOT95P280X145-5N
+DBV0005A
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+VEML6040A3OG
+VEML6040A3OG-2
+Integrated Circuit
+0
+4
+4
+SamacSys_Parts
+motor wire conn
+
+
+0
+16
 8
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
@@ -94835,6 +94912,13 @@ xiao esp32s3 with underpads
 0
 0
 0
+edge connector
+STLINK-V3MINIE conn
+
+
+0
+10
+10
 fpc fcc conn
 4pos fpc conn
 
@@ -94863,3 +94947,10 @@ fpcfcc conn 15pos
 0
 15
 15
+switches_and_dials
+EN10HT1212N5HH3
+
+
+0
+5
+5
