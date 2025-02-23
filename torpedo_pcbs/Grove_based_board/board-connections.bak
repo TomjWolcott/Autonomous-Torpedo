@@ -415,9 +415,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 -2.54 0)
+				(at 19.05 2.54 180)
 				(length 3.81)
-				(name "D5/SCL"
+				(name "D10/A10/MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -432,10 +432,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 19.05 -2.54 180)
+			(pin input line
+				(at 19.05 5.08 180)
 				(length 3.81)
-				(name "D8/A8/SCK"
+				(name "3V3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -450,10 +450,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -19.05 -5.08 0)
+			(pin output line
+				(at 19.05 7.62 180)
 				(length 3.81)
-				(name "D6/TX"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -486,10 +486,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 19.05 -5.08 180)
+			(pin output line
+				(at 19.05 10.16 180)
 				(length 3.81)
-				(name "D7/RX/SS"
+				(name "VSUB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -576,10 +576,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 19.05 10.16 180)
+			(pin bidirectional line
+				(at -19.05 7.62 0)
 				(length 3.81)
-				(name "VSUB"
+				(name "D1/A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -703,42 +703,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 7.62 0)
-				(length 3.81)
-				(name "D1/A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 19.05 7.62 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at -19.05 5.08 0)
 				(length 3.81)
 				(name "D2/A2"
@@ -748,25 +712,7 @@
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 19.05 5.08 180)
-				(length 3.81)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -784,6 +730,60 @@
 						)
 					)
 				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 0 0)
+				(length 3.81)
+				(name "D4/SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 -2.54 0)
+				(length 3.81)
+				(name "D5/SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 -5.08 0)
+				(length 3.81)
+				(name "D6/TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "7"
 					(effects
 						(font
@@ -793,9 +793,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 2.54 180)
+				(at 19.05 -5.08 180)
 				(length 3.81)
-				(name "D10/A10/MOSI"
+				(name "D7/RX/SS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -811,9 +811,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 0 0)
+				(at 19.05 -2.54 180)
 				(length 3.81)
-				(name "D4/SDA"
+				(name "D8/A8/SCK"
 					(effects
 						(font
 							(size 1.27 1.27)

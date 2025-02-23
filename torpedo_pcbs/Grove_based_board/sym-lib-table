@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "board-connections")(type "KiCad")(uri "${KIPRJMOD}/board-connections.kicad_sym")(options "")(descr ""))
   (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-02-22_17-21-41")(type "KiCad")(uri "${KIPRJMOD}/2025-02-22_17-21-41.kicad_sym")(options "")(descr ""))
 )
