@@ -5329,231 +5329,6 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:TPS76918DBVR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TPS76918DBVR"
-				(at 24.13 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/tps769"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ultra Low Power 100mA Low Dropout Linear Regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.45"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TPS76918DBVR"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TPS76918DBVR"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS76918DBVR?qs=YhsVCygOPE1KAu1My2Byxg%3D%3D"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "TPS76918DBVR"
-				(at 24.13 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps76918dbvr/texas-instruments"
-				(at 24.13 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TPS76918DBVR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "~{EN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "NC/FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SamacSys_Parts:VEML6040A3OG"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7686,126 +7461,6 @@
 				)
 			)
 		)
-		(symbol "power:+1V8"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V8"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V8\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V8_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V8_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -8663,12 +8318,6 @@
 		(uuid "0e5b46a1-be74-4aa8-b75e-0945244f9148")
 	)
 	(junction
-		(at -54.61 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "177e08ad-1737-449d-8cf8-4d57869e02fe")
-	)
-	(junction
 		(at 159.385 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8685,12 +8334,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fbbfa7b-24c8-4579-b612-2315cfc8cfa1")
-	)
-	(junction
-		(at -45.72 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "366b1152-2f24-4231-ad9c-0c7658b22f8d")
 	)
 	(junction
 		(at 203.2 129.54)
@@ -8741,12 +8384,6 @@
 		(uuid "54ea4ec4-ceda-4d04-bb1c-f7bdf256cae9")
 	)
 	(junction
-		(at -54.61 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "602f9603-0678-4a1b-9147-667a1d77856d")
-	)
-	(junction
 		(at 127 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8787,12 +8424,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82b68833-513c-4089-b790-283c704d21d7")
-	)
-	(junction
-		(at -12.7 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "845c0cba-c047-444d-9163-0f0c17547e2f")
 	)
 	(junction
 		(at 248.92 154.94)
@@ -9079,10 +8710,6 @@
 		(uuid "abd8f44b-a0a0-42cb-b75c-b138b08f0b37")
 	)
 	(no_connect
-		(at -17.78 73.66)
-		(uuid "c2fc6690-722b-4d78-8aa8-0a791645c323")
-	)
-	(no_connect
 		(at 377.19 226.06)
 		(uuid "c962adf8-68c5-46ce-9f74-60fdd7848dff")
 	)
@@ -9137,16 +8764,6 @@
 			(type default)
 		)
 		(uuid "046ad5e9-0364-484c-ace7-b7da3a775e58")
-	)
-	(wire
-		(pts
-			(xy -54.61 81.28) (xy -54.61 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04854585-ad1a-4d7c-b5da-fb48f32cb71a")
 	)
 	(wire
 		(pts
@@ -9290,16 +8907,6 @@
 	)
 	(wire
 		(pts
-			(xy -12.7 77.47) (xy -12.7 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c04f49f-564c-47aa-ab3a-9363415a7049")
-	)
-	(wire
-		(pts
 			(xy 104.14 209.55) (xy 104.14 212.09)
 		)
 		(stroke
@@ -9377,16 +8984,6 @@
 			(type default)
 		)
 		(uuid "13502e29-4121-43e5-9649-8d74bd2a5b9b")
-	)
-	(wire
-		(pts
-			(xy -54.61 73.66) (xy -45.72 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1444fcbf-4828-4f10-8fe2-6b785c4dafb5")
 	)
 	(wire
 		(pts
@@ -9930,16 +9527,6 @@
 	)
 	(wire
 		(pts
-			(xy -45.72 78.74) (xy -45.72 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b7b6bb0-2f3b-4a52-abc6-539e6ceaa7ea")
-	)
-	(wire
-		(pts
 			(xy 227.33 77.47) (xy 227.33 82.55)
 		)
 		(stroke
@@ -10187,16 +9774,6 @@
 			(type default)
 		)
 		(uuid "640d8b17-be8f-4ce6-b205-40c32d3db570")
-	)
-	(wire
-		(pts
-			(xy -45.72 76.2) (xy -45.72 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64430ad6-df87-40f7-89a8-34ed3a2365a2")
 	)
 	(wire
 		(pts
@@ -10790,26 +10367,6 @@
 	)
 	(wire
 		(pts
-			(xy -12.7 85.09) (xy -12.7 84.455)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "920fce6a-b235-4d19-bb26-6eb4cfbda041")
-	)
-	(wire
-		(pts
-			(xy -54.61 81.28) (xy -45.72 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9278ffa1-ab42-459b-9520-c570117ab58f")
-	)
-	(wire
-		(pts
 			(xy 379.73 233.68) (xy 379.73 231.14)
 		)
 		(stroke
@@ -10917,16 +10474,6 @@
 			(type default)
 		)
 		(uuid "9df80c66-4278-4b8c-ab81-cb34ff67433c")
-	)
-	(wire
-		(pts
-			(xy -12.7 73.025) (xy -12.7 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea6f60c-cca5-41dd-b4b9-449071a87934")
 	)
 	(wire
 		(pts
@@ -11450,16 +10997,6 @@
 	)
 	(wire
 		(pts
-			(xy -54.61 72.39) (xy -54.61 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8eb25e1-a676-46da-8e2f-fe0e3642f571")
-	)
-	(wire
-		(pts
 			(xy 127 144.78) (xy 127 154.94)
 		)
 		(stroke
@@ -11577,16 +11114,6 @@
 			(type default)
 		)
 		(uuid "d3769dee-4a30-47c7-bf4c-7f398341e000")
-	)
-	(wire
-		(pts
-			(xy -17.78 76.2) (xy -12.7 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d621d7ad-765d-4680-bbd2-92cffec0cad7")
 	)
 	(wire
 		(pts
@@ -12282,16 +11809,6 @@
 		)
 		(uuid "9c2f446c-2440-4a2c-b8bb-8d903677e855")
 	)
-	(text "IMU VDDIO Supply"
-		(exclude_from_sim no)
-		(at -32.004 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a52d4e0b-a7bb-4443-b5c6-65524a2f50b1")
-	)
 	(text "Microcontroller Assemblies"
 		(exclude_from_sim no)
 		(at 40.64 193.675 0)
@@ -12322,16 +11839,6 @@
 		)
 		(uuid "cf79edcf-9d39-4e72-a789-98a796153e44")
 	)
-	(text "0.2-2Ω ESR!!!"
-		(exclude_from_sim no)
-		(at -2.54 86.106 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e24f69b7-fe77-4dbd-9868-3b28773582be")
-	)
 	(label "HSE_IN"
 		(at 187.96 144.78 180)
 		(fields_autoplaced yes)
@@ -12353,6 +11860,17 @@
 			(justify left bottom)
 		)
 		(uuid "07abd127-5656-4e9a-8b5d-90fd9ba75ece")
+	)
+	(label "SCL_MAG"
+		(at 326.39 220.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a5e176c-f2bc-49ee-a503-b9de0b5f2a46")
 	)
 	(label "HSE_OUT"
 		(at 187.96 147.32 180)
@@ -12408,6 +11926,17 @@
 			(justify right bottom)
 		)
 		(uuid "cb461ca1-1d51-482c-9748-b238ff0d5664")
+	)
+	(label "SDA_MAG"
+		(at 326.39 218.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e62e9859-59e1-49a7-a9f2-4316a9bf5269")
 	)
 	(global_label "SDA2"
 		(shape input)
@@ -14914,76 +14443,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at -12.7 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1063b691-3a0e-473e-8673-639bfe782023")
-		(property "Reference" "C11"
-			(at -9.525 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2μF"
-			(at -9.525 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at -13.6652 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -12.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at -12.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f22bd27c-7de7-41e2-af43-ff75b74900ee")
-		)
-		(pin "2"
-			(uuid "96005ef9-8c72-46a0-9dc7-631e0bc3fb2a")
-		)
-		(instances
-			(project "Grove_based_board"
-				(path "/41eb1e1b-322f-424a-9c09-146cbb8f85bf"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 167.64 31.75 0)
 		(unit 1)
@@ -15386,72 +14845,6 @@
 			(project "Grove_based_board"
 				(path "/41eb1e1b-322f-424a-9c09-146cbb8f85bf"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at -12.7 73.025 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d21cb14-ab5a-4a73-aaaa-0d01700b8778")
-		(property "Reference" "#PWR039"
-			(at -12.7 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at -12.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -12.7 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -12.7 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at -12.7 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afec3b7b-d4ae-4fa0-a7db-3c7ea100d8d2")
-		)
-		(instances
-			(project "Grove_based_board"
-				(path "/41eb1e1b-322f-424a-9c09-146cbb8f85bf"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18329,76 +17722,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at -54.61 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53428865-8496-421d-a17a-f929ecd7d116")
-		(property "Reference" "C10"
-			(at -51.435 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1μF"
-			(at -51.435 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at -55.5752 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -54.61 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at -54.61 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f518039-96f5-4512-bd4d-76de39756d0b")
-		)
-		(pin "2"
-			(uuid "61188a23-cfd7-4ee0-9db7-9771e88ba3a4")
-		)
-		(instances
-			(project "Grove_based_board"
-				(path "/41eb1e1b-322f-424a-9c09-146cbb8f85bf"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 313.69 163.83 0)
 		(unit 1)
@@ -18525,154 +17848,6 @@
 			(project "Grove_based_board"
 				(path "/41eb1e1b-322f-424a-9c09-146cbb8f85bf"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TPS76918DBVR")
-		(at -45.72 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d45954b-7782-45fa-8566-71f50f662b64")
-		(property "Reference" "IC8"
-			(at -31.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS76918DBVR: 3.3V->1.8V"
-			(at -34.036 69.088 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
-			(at -21.59 168.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/tps769"
-			(at -21.59 268.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultra Low Power 100mA Low Dropout Linear Regulator"
-			(at -45.72 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at -21.59 468.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at -21.59 568.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS76918DBVR"
-			(at -21.59 668.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS76918DBVR"
-			(at -21.59 768.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS76918DBVR?qs=YhsVCygOPE1KAu1My2Byxg%3D%3D"
-			(at -21.59 868.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TPS76918DBVR"
-			(at -21.59 968.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps76918dbvr/texas-instruments"
-			(at -21.59 1068.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "00b7414d-bae7-4f74-b353-087d52fcbf17")
-		)
-		(pin "5"
-			(uuid "3af4092e-dcbc-4509-b986-efda590eaa8f")
-		)
-		(pin "4"
-			(uuid "33c78c82-455c-48fd-a7dd-a6b69f6e995c")
-		)
-		(pin "3"
-			(uuid "3607b1f1-5d6a-417f-b94a-4dfe1e250a5f")
-		)
-		(pin "1"
-			(uuid "3322d04e-79d7-46ce-b62b-a8cdedd6c2a5")
-		)
-		(instances
-			(project "Grove_based_board"
-				(path "/41eb1e1b-322f-424a-9c09-146cbb8f85bf"
-					(reference "IC8")
 					(unit 1)
 				)
 			)
@@ -19208,72 +18383,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -54.61 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6854161b-28dd-41f5-88f2-899f9ead5ebe")
-		(property "Reference" "#PWR037"
-			(at -54.61 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -54.61 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -54.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -54.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -54.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c086b801-4507-40ad-aaf0-d1ee5d0f1bc2")
-		)
-		(instances
-			(project "Grove_based_board"
-				(path "/41eb1e1b-322f-424a-9c09-146cbb8f85bf"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 205.74 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19609,72 +18718,6 @@
 			(project "Grove_based_board"
 				(path "/41eb1e1b-322f-424a-9c09-146cbb8f85bf"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at -54.61 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74a7fc5b-a18e-46ca-9a94-b1dda69e0b7d")
-		(property "Reference" "#PWR038"
-			(at -54.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at -54.61 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -54.61 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -54.61 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at -54.61 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2b1acdc-515a-4c96-a3b6-614dd51fbfe4")
-		)
-		(instances
-			(project "Grove_based_board"
-				(path "/41eb1e1b-322f-424a-9c09-146cbb8f85bf"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -24688,72 +23731,6 @@
 			(project "Grove_based_board"
 				(path "/41eb1e1b-322f-424a-9c09-146cbb8f85bf"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -12.7 84.455 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0596dcd-5eb0-4e20-8d75-2c9a0698a7bd")
-		(property "Reference" "#PWR040"
-			(at -12.7 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -12.7 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -12.7 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -12.7 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -12.7 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1495fcc0-307d-41f5-ac52-3ae9850eadc3")
-		)
-		(instances
-			(project "Grove_based_board"
-				(path "/41eb1e1b-322f-424a-9c09-146cbb8f85bf"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)

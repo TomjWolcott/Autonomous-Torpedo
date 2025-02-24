@@ -1,4 +1,4 @@
-23202735725504733
+23218398023050019
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63762,6 +63762,13 @@ DIN rail adapter universal three M3 clearance holes
 0
 0
 0
+MountingEquipment
+slot
+
+
+0
+1
+1
 MountingHole
 MountingHole_2.1mm
 Mounting Hole 2.1mm, no annular
@@ -87255,6 +87262,48 @@ Connector
 14
 14
 SamacSys_Parts
+LGA-12
+LGA-12
+Integrated Circuit
+0
+12
+12
+SamacSys_Parts
+LGA-14L_2P5X3X0P86_STM
+
+LSM6DSOTR 
+0
+14
+14
+SamacSys_Parts
+LGA-14L_2P5X3X0P86_STM-L
+
+LSM6DSOTR 
+0
+14
+14
+SamacSys_Parts
+LGA-14L_2P5X3X0P86_STM-M
+
+LSM6DSOTR 
+0
+14
+14
+SamacSys_Parts
+LPS22HHTR
+HLGA-10L (2.0 x 2.0 x 0.73 mm typ.)
+Integrated Circuit
+0
+10
+10
+SamacSys_Parts
+M225330205
+M22-5330205-3
+Connector
+0
+2
+2
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -87310,6 +87359,13 @@ Integrated Circuit
 0
 9
 9
+SamacSys_Parts
+SON65P200X200X80-7N
+DRV (S-PWSON-N6)
+Integrated Circuit
+0
+7
+7
 SamacSys_Parts
 SOT95P270X145-5N
 5-Lead (OT) SOT-23
@@ -94891,6 +94947,13 @@ Varistor VF
 0
 2
 2
+board_board_connection
+Grove conn
+
+
+0
+14
+14
 board_board_connection
 Grove_ai_vision_module_v2_headerless
 
