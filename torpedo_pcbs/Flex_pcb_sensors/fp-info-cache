@@ -1,4 +1,4 @@
-23164468269346503
+23173167457240645
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63762,6 +63762,20 @@ DIN rail adapter universal three M3 clearance holes
 0
 0
 0
+MountingEquipment
+slot
+
+
+0
+1
+1
+MountingEquipment
+small mounting holes
+
+
+0
+2
+2
 MountingHole
 MountingHole_2.1mm
 Mounting Hole 2.1mm, no annular
@@ -87199,6 +87213,13 @@ Connector
 8
 8
 SamacSys_Parts
+158301260A
+158301260A-2
+LED
+0
+2
+2
+SamacSys_Parts
 MS583702BA0150
 MS583702BA01-50
 Undefined or Miscellaneous
@@ -94772,6 +94793,13 @@ Varistor VF
 0
 2
 2
+edge connector
+STLINK-V3MINIE conn
+
+
+0
+10
+10
 fpc fcc conn
 4pos fpc conn
 
@@ -94800,3 +94828,10 @@ fpcfcc conn 15pos
 0
 15
 15
+switches_and_dials
+EN10HT1212N5HH3
+
+
+0
+5
+5
