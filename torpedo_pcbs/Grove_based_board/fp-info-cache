@@ -1,4 +1,4 @@
-23218398023050019
+23249849162512000
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6614,6 +6614,20 @@ tag connect programming header pogo pins
 0
 14
 14
+Connector
+fpc_15pin_1.0
+
+
+0
+15
+15
+Connector
+fpc_22pin_0.5
+
+
+0
+22
+22
 Connector_AMASS
 AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal
 Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf
@@ -63769,6 +63783,13 @@ slot
 0
 1
 1
+MountingEquipment
+small mounting holes
+
+
+0
+2
+2
 MountingHole
 MountingHole_2.1mm
 Mounting Hole 2.1mm, no annular
@@ -87199,12 +87220,33 @@ rotary encoder
 7
 6
 SamacSys_Parts
+436331045822
+436331045822-3
+Switch
+0
+4
+2
+SamacSys_Parts
 009276008021106
 009276008021106-2
 Connector
 0
 16
-8
+16
+SamacSys_Parts
+2SC2712GRLF
+2-3Z1S
+MOSFET (P-Channel)
+0
+3
+3
+SamacSys_Parts
+0154001.DRT
+0154001.DRT
+Fuse
+0
+2
+2
 SamacSys_Parts
 17444468
 1744446-8-3
@@ -87255,6 +87297,27 @@ Connector
 6
 6
 SamacSys_Parts
+B3U3100PMB
+B3U-3100PM-B-2
+Switch
+0
+3
+3
+SamacSys_Parts
+BM04B-SRSS-TB_LFSN_
+BM04B-SRSS-TB(LFSN)
+Connector
+0
+6
+6
+SamacSys_Parts
+BZT55B13GS08
+QuadroMELF SOD-80
+Diode
+0
+2
+2
+SamacSys_Parts
 FTSH-107-XX-YYY-DV-K-P-TR
 FTSH-107-XX-YYY-DV-K-P-TR
 Connector
@@ -87304,6 +87367,13 @@ Connector
 2
 2
 SamacSys_Parts
+MSK12C02
+MSK12C02-1
+Switch
+0
+7
+7
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -87346,12 +87416,26 @@ Connector
 8
 8
 SamacSys_Parts
+SK3296S01L1
+SK-3296S-01-L1-1
+Connector
+0
+7
+7
+SamacSys_Parts
 SOIC127P600X150-9N
 SO-8EP_2024-1
 Integrated Circuit
 0
 9
 9
+SamacSys_Parts
+SOIC127P600X175-8N
+SOIC (NARROW) 8-LEAD
+Integrated Circuit
+0
+8
+8
 SamacSys_Parts
 SON50P200X200X80-9N
 DSG0008A_2023
@@ -87367,6 +87451,13 @@ Integrated Circuit
 7
 7
 SamacSys_Parts
+SOT65P210X110-3N
+SOT-323*/*
+MOSFET (P-Channel)
+0
+3
+3
+SamacSys_Parts
 SOT95P270X145-5N
 5-Lead (OT) SOT-23
 Transistor
@@ -87381,9 +87472,30 @@ Integrated Circuit
 5
 5
 SamacSys_Parts
+SOTFL95P240X88-3N
+SOT-23F (2-3Z1A)_1
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
 VEML6040A3OG
 VEML6040A3OG-2
 Integrated Circuit
+0
+4
+4
+SamacSys_Parts
+VL53L5CXV0GC1
+VL53L5CXV0GC/1
+Integrated Circuit
+0
+18
+18
+SamacSys_Parts
+X322516MOB4SI
+X322516MOB4SI-2
+Crystal or Oscillator
 0
 4
 4
@@ -94955,6 +95067,13 @@ Grove conn
 14
 14
 board_board_connection
+Grove conn_limited_pinout
+
+
+0
+6
+6
+board_board_connection
 Grove_ai_vision_module_v2_headerless
 
 
@@ -95017,3 +95136,10 @@ EN10HT1212N5HH3
 0
 5
 5
+switches_and_dials
+SMT G leads
+
+
+0
+2
+2

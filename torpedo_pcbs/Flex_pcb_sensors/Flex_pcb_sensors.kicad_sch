@@ -5,145 +5,6 @@
 	(uuid "e481a0a7-d92f-423b-8454-fe10047fa3c9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -582,263 +443,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SamacSys_Parts:158301260A"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "158301260A"
-				(at 12.7 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "158301260A"
-				(at 12.7 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/158301260A.pdf"
-				(at 12.7 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "WURTH ELEKTRONIK - 158301260A - High Brightness LED, WL-SWTP Series, Cool White, 120 , 26 lm, 6000 K, 150 mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.75"
-				(at 12.7 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 12.7 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "158301260A"
-				(at 12.7 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "710-158301260A"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/158301260A?qs=GedFDFLaBXEWl0o2SpRAaw%3D%3D"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 12.7 -893.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 12.7 -993.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "158301260A_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1631,10 +1235,16 @@
 		)
 	)
 	(junction
-		(at 92.71 63.5)
+		(at 86.36 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "36742fac-03e7-43df-8f36-05fb311e569d")
+		(uuid "35d5e782-addb-4451-a9bd-9cf199a5655b")
+	)
+	(junction
+		(at 86.36 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "448720fa-e551-4d5f-aebd-b49906b0bc63")
 	)
 	(junction
 		(at 29.21 102.87)
@@ -1679,12 +1289,20 @@
 		(uuid "ef768dda-da51-4f07-8e53-8f8343ef8184")
 	)
 	(no_connect
+		(at 50.8 106.68)
+		(uuid "6b362b0a-6ee9-4585-bd46-7f745eae9764")
+	)
+	(no_connect
 		(at 73.66 100.33)
 		(uuid "bfb235e9-ddd1-4ad2-92d9-17baf598ef82")
 	)
 	(no_connect
 		(at 26.67 59.69)
 		(uuid "dc91bb40-91d7-45bf-a9ae-3c03a1e3bed7")
+	)
+	(no_connect
+		(at 26.67 57.15)
+		(uuid "e374480c-8e96-4393-932d-4b0f0caaf9d9")
 	)
 	(wire
 		(pts
@@ -1738,16 +1356,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 57.15) (xy 62.23 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c4fa909-77fd-4694-996a-73e14bcbeb33")
-	)
-	(wire
-		(pts
 			(xy 101.6 99.06) (xy 105.41 99.06)
 		)
 		(stroke
@@ -1768,6 +1376,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 34.29) (xy 86.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23eebe30-2d82-4b6e-b442-14b8f7b39951")
+	)
+	(wire
+		(pts
 			(xy 29.21 24.13) (xy 26.67 24.13)
 		)
 		(stroke
@@ -1785,16 +1403,6 @@
 			(type default)
 		)
 		(uuid "26aa4b49-bdc5-469d-93ca-40225ec138be")
-	)
-	(wire
-		(pts
-			(xy 92.71 63.5) (xy 92.71 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c693ca7-1102-4eb0-884e-81769af3dcb9")
 	)
 	(wire
 		(pts
@@ -1838,6 +1446,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 34.29) (xy 86.36 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40bdd8a9-57e2-41bd-b93f-9765e8f63ec1")
+	)
+	(wire
+		(pts
 			(xy 105.41 88.9) (xy 109.22 88.9)
 		)
 		(stroke
@@ -1845,6 +1463,16 @@
 			(type default)
 		)
 		(uuid "437e0ebc-1b07-4b4c-af7e-1e0489f8ac14")
+	)
+	(wire
+		(pts
+			(xy 81.28 44.45) (xy 86.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a85dd7a-dda3-4b01-aba6-0270883992b0")
 	)
 	(wire
 		(pts
@@ -1918,17 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 60.96) (xy 92.71 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe8a404-259e-4086-9c4e-7f24b5fd75cc")
-	)
-	(wire
-		(pts
-			(xy 86.36 35.56) (xy 86.36 38.1)
+			(xy 86.36 31.75) (xy 86.36 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2068,7 +1686,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 43.18) (xy 86.36 40.64)
+			(xy 86.36 48.26) (xy 86.36 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2088,6 +1706,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 43.18) (xy 81.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afdd964a-cb4a-43f1-8011-03a4ff6ea84a")
+	)
+	(wire
+		(pts
+			(xy 86.36 44.45) (xy 86.36 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3887ec9-524d-4362-bcb9-45e918490ea0")
+	)
+	(wire
+		(pts
 			(xy 29.21 29.21) (xy 26.67 29.21)
 		)
 		(stroke
@@ -2095,16 +1733,6 @@
 			(type default)
 		)
 		(uuid "c54c7090-6b99-46b1-920b-b89e1a2a299a")
-	)
-	(wire
-		(pts
-			(xy 62.23 57.15) (xy 62.23 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7c82a2f-b6f6-4c50-a483-c75dec4f8841")
 	)
 	(wire
 		(pts
@@ -2178,13 +1806,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 57.15) (xy 43.18 57.15)
+			(xy 81.28 35.56) (xy 81.28 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe66db48-2bcc-4c87-a917-d8b17ac4c7d5")
+		(uuid "f7820c8e-3ccf-4054-8a46-8eaa43f6e11a")
 	)
 	(text "Must be close to the VL53L1X"
 		(exclude_from_sim no)
@@ -2372,6 +2000,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b84fa7cc-d460-4285-a414-5cc1c72068e0")
 		)
@@ -2454,141 +2091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 87.63 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16081f0d-47bb-4680-9819-d5b164513250")
-		(property "Reference" "J3"
-			(at 87.63 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "mounting"
-			(at 87.63 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingEquipment:small mounting holes"
-			(at 87.63 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 87.63 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0d66698-d212-4510-be63-5bb2695004a7")
-		)
-		(pin "1"
-			(uuid "8c007bce-accb-4c34-b594-634ad2a6ea57")
-		)
-		(instances
-			(project "Flex_pcb_sensors"
-				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "160f8237-284e-4750-893f-199084f8d38b")
-		(property "Reference" "#PWR011"
-			(at 62.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1824ecb-bbe2-4b73-8bce-9f8f6c24f2f7")
-		)
-		(instances
-			(project "Flex_pcb_sensors"
-				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 24.13 102.87 0)
 		(mirror y)
@@ -2643,6 +2145,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "796524fb-7975-49b7-ac5d-30e9bccb586d")
 		)
@@ -2653,6 +2164,85 @@
 			(project "Flex_pcb_sensors"
 				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 81.28 39.37 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "221f256d-0b14-4799-812c-c219c82e1c27")
+		(property "Reference" "C3"
+			(at 77.47 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 77.47 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.3148 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 81.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2302961-3a7c-4b95-85d1-b9b1c73ea780")
+		)
+		(pin "2"
+			(uuid "c5efd7b6-2d87-49a2-b134-a432032f28d5")
+		)
+		(instances
+			(project "Flex_pcb_sensors"
+				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2780,6 +2370,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C5785272"
+			(at 87.63 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2929,6 +2528,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "a12a4f43-a8d5-4f8e-88f7-4df37c13a1d0")
 		)
@@ -2969,147 +2577,6 @@
 			(project "Flex_pcb_sensors"
 				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:158301260A")
-		(at 58.42 57.15 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fb5a3c5-ebc1-4ff1-884b-e4bb7f9cc414")
-		(property "Reference" "LED1"
-			(at 50.8 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "158301260A"
-			(at 50.8 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "158301260A"
-			(at 45.72 150.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/158301260A.pdf"
-			(at 45.72 250.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "WURTH ELEKTRONIK - 158301260A - High Brightness LED, WL-SWTP Series, Cool White, 120 , 26 lm, 6000 K, 150 mA"
-			(at 58.42 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.75"
-			(at 45.72 450.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 45.72 550.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "158301260A"
-			(at 45.72 650.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-158301260A"
-			(at 45.72 750.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/158301260A?qs=GedFDFLaBXEWl0o2SpRAaw%3D%3D"
-			(at 45.72 850.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 45.72 950.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 45.72 1050.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b823a4fc-59d0-4635-86b2-25ed9224e592")
-		)
-		(pin "1"
-			(uuid "299de140-c7be-4b02-bc38-77b8286c9424")
-		)
-		(instances
-			(project "Flex_pcb_sensors"
-				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -3183,7 +2650,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 86.36 35.56 0)
+		(at 86.36 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3192,7 +2659,7 @@
 		(fields_autoplaced yes)
 		(uuid "6089f3a9-3e93-4999-b304-4bbcfbfadd9e")
 		(property "Reference" "#PWR04"
-			(at 86.36 39.37 0)
+			(at 86.36 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +2668,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 86.36 30.48 0)
+			(at 86.36 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +2676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 35.56 0)
+			(at 86.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +2685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 35.56 0)
+			(at 86.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +2694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 86.36 35.56 0)
+			(at 86.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,6 +2826,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -3766,6 +3242,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 21.59 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28b085fb-c79a-4aea-a27a-a1fb7fcbb578")
 		)
@@ -3789,7 +3274,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 43.18 0)
+		(at 86.36 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3798,7 +3283,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fb2e4b1-9e6a-42af-ba20-0bb20bf3c7e8")
 		(property "Reference" "#PWR03"
-			(at 86.36 49.53 0)
+			(at 86.36 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +3292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 48.26 0)
+			(at 86.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,7 +3300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 43.18 0)
+			(at 86.36 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 43.18 0)
+			(at 86.36 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 43.18 0)
+			(at 86.36 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,6 +3393,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd478a5d-3ea8-426c-84a0-2ec75c0b5d77")
 		)
@@ -3918,72 +3412,6 @@
 			(project "Flex_pcb_sensors"
 				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a56a23ad-8a50-4e9f-802a-d336e220bcbe")
-		(property "Reference" "#PWR012"
-			(at 92.71 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94acfe25-e3bb-4cd9-9590-982539081b35")
-		)
-		(instances
-			(project "Flex_pcb_sensors"
-				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4035,6 +3463,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 21.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 21.59 54.61 0)
 			(effects
 				(font
