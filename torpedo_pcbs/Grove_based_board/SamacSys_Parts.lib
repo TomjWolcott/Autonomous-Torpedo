@@ -1,0 +1,1106 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 503480-2200
+#/739831/1475020/2.50/24/4/Connector
+DEF 503480-2200 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "503480-2200" 850 200 50 H V L CNN
+F2 "5034802200" 850 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/5034802200_sd.pdf" 850 0 50 H I L CNN
+F4 "MOLEX - 503480-2200 - CONNECTOR, FPC, RCPT, 22POS, 1ROW" 850 -100 50 H I L CNN "Description"
+F5 "1.87" 850 -200 50 H I L CNN "Height"
+F6 "Molex" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "503480-2200" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-503480-2200" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/503480-2200?qs=6kT3pPPHxnXngRGlU5mTcA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 1000 0 200 L 50 50 0 0 P
+X 2 2 1000 -100 200 L 50 50 0 0 P
+X 3 3 1000 -200 200 L 50 50 0 0 P
+X 4 4 1000 -300 200 L 50 50 0 0 P
+X 5 5 1000 -400 200 L 50 50 0 0 P
+X 6 6 1000 -500 200 L 50 50 0 0 P
+X 7 7 1000 -600 200 L 50 50 0 0 P
+X 8 8 1000 -700 200 L 50 50 0 0 P
+X 9 9 1000 -800 200 L 50 50 0 0 P
+X 10 10 1000 -900 200 L 50 50 0 0 P
+X 11 11 1000 -1000 200 L 50 50 0 0 P
+X 12 12 1000 -1100 200 L 50 50 0 0 P
+X 13 13 1000 -1200 200 L 50 50 0 0 P
+X 14 14 1000 -1300 200 L 50 50 0 0 P
+X 15 15 1000 -1400 200 L 50 50 0 0 P
+X 16 16 1000 -1500 200 L 50 50 0 0 P
+X 17 17 1000 -1600 200 L 50 50 0 0 P
+X 18 18 1000 -1700 200 L 50 50 0 0 P
+X 19 19 1000 -1800 200 L 50 50 0 0 P
+X 20 20 1000 -1900 200 L 50 50 0 0 P
+X 21 21 1000 -2000 200 L 50 50 0 0 P
+X 22 22 1000 -2100 200 L 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -2200 200 -2200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 2005280040
+#/912287/1475020/2.50/6/4/Connector
+DEF 2005280040 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "2005280040" 750 200 50 H V L CNN
+F2 "2005280040" 750 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/ps/2005280000.pdf" 750 0 50 H I L CNN
+F4 "Easy-On FFC/FPC Connector, 1mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.9mm Height, 4 Circuits, Gold over Nickel Plating" 750 -100 50 H I L CNN "Description"
+F5 "2.1" 750 -200 50 H I L CNN "Height"
+F6 "Molex" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "2005280040" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "2005280040" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/2005280040/molex?region=nac" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 -200 200 L 50 50 0 0 P
+X 4 4 900 -300 200 L 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 503480-0440
+#/11555709/1475020/2.50/6/4/Connector
+DEF 503480-0440 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "503480-0440" 750 200 50 H V L CNN
+F2 "5034800440" 750 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/5034800440_sd.pdf" 750 0 50 H I L CNN
+F4 "Connector FFC/FPC SKT 4 Position 0.5mm Solder Right Angle Surface Mount T/R" 750 -100 50 H I L CNN "Description"
+F5 "2.12" 750 -200 50 H I L CNN "Height"
+F6 "Molex" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "503480-0440" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-503480-0440" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/503480-0440?qs=LBbezbu20sggwP%2FAt293Pw%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 -200 200 L 50 50 0 0 P
+X 4 4 900 -300 200 L 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ICM-20948
+#/13673711/1475020/2.50/25/2/Integrated Circuit
+DEF ICM-20948 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 900 50 H V L CNN
+F1 "ICM-20948" 1050 800 50 H V L CNN
+F2 "QFN40P300X300X105-25N-D" 1050 700 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ds-000189-icm-20948-v1.3.pdf" 1050 600 50 H I L CNN
+F4 "IMUs - Inertial Measurement Units World\'s Lowest Power 9-Axis MEMS MotionTracking Device" 1050 500 50 H I L CNN "Description"
+F5 "1.05" 1050 400 50 H I L CNN "Height"
+F6 "TDK" 1050 300 50 H I L CNN "Manufacturer_Name"
+F7 "ICM-20948" 1050 200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "410-ICM-20948" 1050 100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/ICM-20948?qs=u4fy%2FsgLU9OtGc31yF%2Friw%3D%3D" 1050 0 50 H I L CNN "Mouser Price/Stock"
+F10 "ICM-20948" 1050 -100 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/icm-20948/invensense?region=nac" 1050 -200 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X NC_2 2 0 -100 200 R 50 50 0 0 P
+X NC_3 3 0 -200 200 R 50 50 0 0 P
+X NC_4 4 0 -300 200 R 50 50 0 0 P
+X NC_5 5 0 -400 200 R 50 50 0 0 P
+X NC_6 6 0 -500 200 R 50 50 0 0 P
+X AUX_CL 7 300 -1400 200 U 50 50 0 0 P
+X VDDIO 8 400 -1400 200 U 50 50 0 0 P
+X SDO_/_AD0 9 500 -1400 200 U 50 50 0 0 P
+X REGOUT 10 600 -1400 200 U 50 50 0 0 P
+X FSYNC 11 700 -1400 200 U 50 50 0 0 P
+X INT1 12 800 -1400 200 U 50 50 0 0 P
+X GND 18 1200 0 200 L 50 50 0 0 P
+X NC_10 17 1200 -100 200 L 50 50 0 0 P
+X NC_9 16 1200 -200 200 L 50 50 0 0 P
+X NC_8 15 1200 -300 200 L 50 50 0 0 P
+X NC_7 14 1200 -400 200 L 50 50 0 0 P
+X VDD 13 1200 -500 200 L 50 50 0 0 P
+X EP 25 300 900 200 D 50 50 0 0 P
+X SDA_/_SDI 24 400 900 200 D 50 50 0 0 P
+X SCL_/_SCLK 23 500 900 200 D 50 50 0 0 P
+X NCS 22 600 900 200 D 50 50 0 0 P
+X AUX_DA 21 700 900 200 D 50 50 0 0 P
+X RESV_2 20 800 900 200 D 50 50 0 0 P
+X RESV_1 19 900 900 200 D 50 50 0 0 P
+P 5 0 1 6 200 700 1000 700 1000 -1200 200 -1200 200 700 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 2328702-6
+#/1501901/1475020/2.50/8/2/Connector
+DEF 2328702-6 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "2328702-6" 750 200 50 H V L CNN
+F2 "23287026" 750 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773959-7-FPC-Connectors-CN&DocType=Data%20Sheet&DocLang=Chinese (Simplified)&PartCntxt=2328702-6&DocFormat=pdf" 750 0 50 H I L CNN
+F4 "Body Features: Actuator Color Black | Primary Product Color Natural | Configuration Features: Compatible With Wire & Cable Type FFC | Compatible With Wire & Cable Type FPC | Number of Rows 1 | Number of Positions 6 | PCB Mount Orientation Right Angle | Contact Features: PCB Contact Termination Area Plating Material Gold | Contact Layout Inline | Contact Base Material Copper Alloy | Contact Current Rating (Max) .5 AMP | Contact Mating Area Plating Material Gold | Contact Mating Location Dual Side | Contact S" 750 -100 50 H I L CNN "Description"
+F5 "1.1" 750 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "2328702-6" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-2328702-6" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2328702-6?qs=w%2Fv1CP2dgqrAQsCHQ2ClBQ%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "2328702-6" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/2328702-6/te-connectivity?utm_currency=USD&region=nac" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 900 -500 200 L 50 50 0 0 P
+X 2 2 900 -400 200 L 50 50 0 0 P
+X 3 3 900 -300 200 L 50 50 0 0 P
+X 4 4 900 -200 200 L 50 50 0 0 P
+X 5 5 900 -100 200 L 50 50 0 0 P
+X 6 6 900 0 200 L 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 158301260A
+#/11991366/1475020/2.50/2/4/LED
+DEF 158301260A LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "158301260A" 500 250 50 H V L BNN
+F2 "158301260A" 500 150 50 H I L BNN
+F3 "https://www.we-online.com/catalog/datasheet/158301260A.pdf" 500 50 50 H I L BNN
+F4 "WURTH ELEKTRONIK - 158301260A - High Brightness LED, WL-SWTP Series, Cool White, 120 , 26 lm, 6000 K, 150 mA" 500 -50 50 H I L BNN "Description"
+F5 "0.75" 500 -150 50 H I L BNN "Height"
+F6 "Wurth Elektronik" 500 -250 50 H I L BNN "Manufacturer_Name"
+F7 "158301260A" 500 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "710-158301260A" 500 -450 50 H I L BNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/158301260A?qs=GedFDFLaBXEWl0o2SpRAaw%3D%3D" 500 -550 50 H I L BNN "Mouser Price/Stock"
+F10 "" 500 -650 50 H I L BNN "Arrow Part Number"
+F11 "" 500 -750 50 H I L BNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1744446-8
+#/12893275/1475020/2.50/8/2/Connector
+DEF 1744446-8 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1744446-8" 650 200 50 H V L CNN
+F2 "17444468" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=7-1773461-6EP2.5&DocType=Data%20Sheet&DocLang=English&PartCntxt=1744446-8&DocFormat=pdf" 650 0 50 H I L CNN
+F4 "Body Features: Primary Product Color Natural | Configuration Features: Number of Positions 8 | PCB Mount Orientation Right Angle | Number of Rows 1 | Contact Features: Contact Mating Area Plating Material Thickness 2  5 MICM | Contact Layout Inline | PCB Contact Termination Area Plating Material Thickness 2.032 MICM | PCB Contact Termination Area Plating Material Tin | Contact Mating Area Plating Material Tin | Contact Type Pin | Mating Pin Diameter .6 MM | Mating Pin Diameter .024 INCH | Contact Mating " 650 -100 50 H I L CNN "Description"
+F5 "7.8" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1744446-8" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-1744446-8" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1744446-8?qs=%2F6W%2F9%2FHWvcAFAzQdVIQDoQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 66200411022
+#/15100568/1475020/2.50/4/3/Connector
+DEF 66200411022 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "66200411022" 650 200 50 H V L CNN
+F2 "66200411022" 650 100 50 H I L CNN
+F3 "https://www.we-online.com/components/products/datasheet/66200411022.pdf" 650 0 50 H I L CNN
+F4 "WR-MPC3 3.00 mm Male Single Row Angled Header w. Plastic Pegs - THT - Tin" 650 -100 50 H I L CNN "Description"
+F5 "6.02" 650 -200 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "66200411022" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 -300 200 R 50 50 0 0 P
+X 2 2 0 -200 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model S8B-EH
+#/968834/1475020/2.50/8/3/Connector
+DEF S8B-EH J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "S8B-EH" 650 200 50 H V L CNN
+F2 "SHDRRA8W64P0X250_1X8_2250X820X420P" 650 100 50 H I L CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/eEH.pdf" 650 0 50 H I L CNN
+F4 "Connector,PCB,side entry header,2.5mm pitch,8 way" 650 -100 50 H I L CNN "Description"
+F5 "4.2" 650 -200 50 H I L CNN "Height"
+F6 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "S8B-EH" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DRV8213DSGR
+#/18952678/1475020/2.50/9/4/Integrated Circuit
+DEF DRV8213DSGR IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "DRV8213DSGR" 1250 200 50 H V L CNN
+F2 "SON50P200X200X80-9N" 1250 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/drv8213.pdf?ts=1703739910534&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fproduct%252Fcn%252FDRV8213" 1250 0 50 H I L CNN
+F4 "Motor Drives 11-V 4-A brushed DC motor driver with intergrated current sense, current regulation and stall detect 8-WSON -40 to 125" 1250 -100 50 H I L CNN "Description"
+F5 "0.8" 1250 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DRV8213DSGR" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-DRV8213DSGR" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8213DSGR?qs=HoCaDK9Nz5fr9x8VVVVBBg%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "DRV8213DSGR" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "null?region=nac" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VM 1 0 0 200 R 50 50 0 0 P
+X OUT1 2 0 -100 200 R 50 50 0 0 P
+X OUT2 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X EP 9 700 -800 200 U 50 50 0 0 P
+X IPROPI 8 1400 0 200 L 50 50 0 0 P
+X GAINSEL 7 1400 -100 200 L 50 50 0 0 P
+X IN1 6 1400 -200 200 L 50 50 0 0 P
+X IN2 5 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model STM32G473CBU6
+#/2397887/1475020/2.50/49/3/Integrated Circuit
+DEF STM32G473CBU6 IC 0 30 Y Y 1 F N
+F0 "IC" 1650 900 50 H V L CNN
+F1 "STM32G473CBU6" 1650 800 50 H V L CNN
+F2 "QFN50P700X700X60-49N-D" 1650 700 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/stm32g473cb.pdf" 1650 600 50 H I L CNN
+F4 "ARM Microcontrollers - MCU 16/32-BITS MICROS" 1650 500 50 H I L CNN "Description"
+F5 "0.6" 1650 400 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1650 300 50 H I L CNN "Manufacturer_Name"
+F7 "STM32G473CBU6" 1650 200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-STM32G473CBU6" 1650 100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32G473CBU6?qs=uwxL4vQweFOELreyN9Hluw%3D%3D" 1650 0 50 H I L CNN "Mouser Price/Stock"
+F10 "STM32G473CBU6" 1650 -100 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/stm32g473cbu6/stmicroelectronics?utm_currency=USD&region=nac" 1650 -200 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VBAT 1 0 0 200 R 50 50 0 0 P
+X PC13 2 0 -100 200 R 50 50 0 0 P
+X PC14-OSC32_IN 3 0 -200 200 R 50 50 0 0 P
+X PC15-OSC32_OUT 4 0 -300 200 R 50 50 0 0 P
+X PF0-OSC_IN 5 0 -400 200 R 50 50 0 0 P
+X PF1-OSC_OUT 6 0 -500 200 R 50 50 0 0 P
+X PG10-NRST 7 0 -600 200 R 50 50 0 0 P
+X PA0 8 0 -700 200 R 50 50 0 0 P
+X PA1 9 0 -800 200 R 50 50 0 0 P
+X PA2 10 0 -900 200 R 50 50 0 0 P
+X PA3 11 0 -1000 200 R 50 50 0 0 P
+X PA4 12 0 -1100 200 R 50 50 0 0 P
+X PA5 13 300 -1800 200 U 50 50 0 0 P
+X PA6 14 400 -1800 200 U 50 50 0 0 P
+X PA7 15 500 -1800 200 U 50 50 0 0 P
+X PC4 16 600 -1800 200 U 50 50 0 0 P
+X PB0 17 700 -1800 200 U 50 50 0 0 P
+X PB1 18 800 -1800 200 U 50 50 0 0 P
+X PB2 19 900 -1800 200 U 50 50 0 0 P
+X VREF+ 20 1000 -1800 200 U 50 50 0 0 P
+X VDDA 21 1100 -1800 200 U 50 50 0 0 P
+X PB10 22 1200 -1800 200 U 50 50 0 0 P
+X VDD_1 23 1300 -1800 200 U 50 50 0 0 P
+X PB11 24 1400 -1800 200 U 50 50 0 0 P
+X PA13 36 1800 0 200 L 50 50 0 0 P
+X VDD_2 35 1800 -100 200 L 50 50 0 0 P
+X PA12 34 1800 -200 200 L 50 50 0 0 P
+X PA11 33 1800 -300 200 L 50 50 0 0 P
+X PA10 32 1800 -400 200 L 50 50 0 0 P
+X PA9 31 1800 -500 200 L 50 50 0 0 P
+X PA8 30 1800 -600 200 L 50 50 0 0 P
+X PC6 29 1800 -700 200 L 50 50 0 0 P
+X PB15 28 1800 -800 200 L 50 50 0 0 P
+X PB14 27 1800 -900 200 L 50 50 0 0 P
+X PB13 26 1800 -1000 200 L 50 50 0 0 P
+X PB12 25 1800 -1100 200 L 50 50 0 0 P
+X EP 49 300 900 200 D 50 50 0 0 P
+X VDD_3 48 400 900 200 D 50 50 0 0 P
+X PB9 47 500 900 200 D 50 50 0 0 P
+X PB8-BOOT0 46 600 900 200 D 50 50 0 0 P
+X PB7 45 700 900 200 D 50 50 0 0 P
+X PB6 44 800 900 200 D 50 50 0 0 P
+X PB5 43 900 900 200 D 50 50 0 0 P
+X PB4 42 1000 900 200 D 50 50 0 0 P
+X PB3 41 1100 900 200 D 50 50 0 0 P
+X PC11 40 1200 900 200 D 50 50 0 0 P
+X PC10 39 1300 900 200 D 50 50 0 0 P
+X PA15 38 1400 900 200 D 50 50 0 0 P
+X PA14 37 1500 900 200 D 50 50 0 0 P
+P 5 0 1 6 200 700 1600 700 1600 -1600 200 -1600 200 700 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AP7362-33SP-13
+#/1088977/1475020/2.50/9/2/Integrated Circuit
+DEF AP7362-33SP-13 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "AP7362-33SP-13" 1050 200 50 H V L CNN
+F2 "SOIC127P600X150-9N" 1050 100 50 H I L CNN
+F3 "https://www.diodes.com//assets/Datasheets/AP7362.pdf" 1050 0 50 H I L CNN
+F4 "LDO Voltage Regulators LDO CMOS HiCurr SO-8 1.5A LowQ Adj 190mV" 1050 -100 50 H I L CNN "Description"
+F5 "1.5" 1050 -200 50 H I L CNN "Height"
+F6 "Diodes Incorporated" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AP7362-33SP-13" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-AP7362-33SP-13" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7362-33SP-13?qs=KKV7F4CK8NmzeNAjtGP7xA%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "AP7362-33SP-13" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ap7362-33sp-13/diodes-incorporated?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 0 0 200 R 50 50 0 0 P
+X EN 2 0 -100 200 R 50 50 0 0 P
+X IN_1 3 0 -200 200 R 50 50 0 0 P
+X IN_2 4 0 -300 200 R 50 50 0 0 P
+X EP 9 600 -800 200 U 50 50 0 0 P
+X ADJ/NC 8 1200 0 200 L 50 50 0 0 P
+X OUT_3 7 1200 -100 200 L 50 50 0 0 P
+X OUT_2 6 1200 -200 200 L 50 50 0 0 P
+X OUT_1 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TC1015-1.8VCT713
+#/355500/1475020/2.50/5/3/Transistor
+DEF TC1015-1.8VCT713 Q 0 30 Y Y 1 F N
+F0 "Q" 1150 300 50 H V L CNN
+F1 "TC1015-1.8VCT713" 1150 200 50 H V L CNN
+F2 "SOT95P270X145-5N" 1150 100 50 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011417" 1150 0 50 H I L CNN
+F4 "LDO regulator, +1.8V 100mA, SOT23-5 Microchip TC1015-1.8VCT713, LDO Voltage Regulator, 100mA, 1.8 V +/-2.5%, 2.7  6 Vin, 5-Pin SOT-23" 1150 -100 50 H I L CNN "Description"
+F5 "1.45" 1150 -200 50 H I L CNN "Height"
+F6 "Microchip" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TC1015-1.8VCT713" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "579-TC1015-1.8VCT713" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/TC1015-1.8VCT713?qs=XgnRspguQNCGGh82G8e1%2FA%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TC1015-1.8VCT713" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tc1015-1.8vct713/microchip-technology?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X ~SHDN 3 0 -200 200 R 50 50 0 0 P
+X BYPASS 4 1300 0 200 L 50 50 0 0 P
+X VOUT 5 1300 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TPS76918DBVR
+#/608096/1475020/2.50/5/3/Integrated Circuit
+DEF TPS76918DBVR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TPS76918DBVR" 950 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tps769" 950 0 50 H I L CNN
+F4 "Ultra Low Power 100mA Low Dropout Linear Regulator" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TPS76918DBVR" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TPS76918DBVR" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS76918DBVR?qs=YhsVCygOPE1KAu1My2Byxg%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TPS76918DBVR" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tps76918dbvr/texas-instruments" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X ~EN 3 0 -200 200 R 50 50 0 0 P
+X NC/FB 4 1100 0 200 L 50 50 0 0 P
+X OUT 5 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model FTSH-107-01-L-DV-K-P-TR
+#/1018587/1475020/2.50/14/2/Connector
+DEF FTSH-107-01-L-DV-K-P-TR J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "FTSH-107-01-L-DV-K-P-TR" 750 200 50 H V L CNN
+F2 "FTSH-107-XX-YYY-DV-K-P-TR" 750 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf" 750 0 50 H I L CNN
+F4 "Samtec, FTSH, 14 Way, 2 Row, Vertical Pin Header" 750 -100 50 H I L CNN "Description"
+F5 "" 750 -200 50 H I L CNN "Height"
+F6 "SAMTEC" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "FTSH-107-01-L-DV-K-P-TR" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "200-FTSH10701LDVKPTR" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Samtec/FTSH-107-01-L-DV-K-P-TR?qs=%252BZP6%2F%252BtExtCuv822LhAJEA%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "FTSH-107-01-L-DV-K-P-TR" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ftsh-107-01-l-dv-k-p-tr/samtec?region=nac" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+X 11 11 0 -500 200 R 50 50 0 0 P
+X 12 12 900 -500 200 L 50 50 0 0 P
+X 13 13 0 -600 200 R 50 50 0 0 P
+X 14 14 900 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 009276008021106
+#/909547/1475020/2.50/16/4/Connector
+DEF 009276008021106 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "009276008021106" 750 200 50 H V L CNN
+F2 "009276008021106" 750 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/40/PokeHomeHorizontal_00_9276-3165415.pdf" 750 0 50 H I L CNN
+F4 "AVX INTERCONNECT - 009276008021106 - CONNECTOR, IDC, 8 WAY, 18 AWG" 750 -100 50 H I L CNN "Description"
+F5 "5" 750 -200 50 H I L CNN "Height"
+F6 "Kyocera AVX" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "009276008021106" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "581-009276008021106" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/AVX/009276008021106?qs=QtI0yD1FyONH094LlrK%252ByQ%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "009276008021106" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/009276008021106/avx" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 900 -700 200 L 50 50 0 0 P
+X 10 10 900 -600 200 L 50 50 0 0 P
+X 11 11 900 -500 200 L 50 50 0 0 P
+X 12 12 900 -400 200 L 50 50 0 0 P
+X 13 13 900 -300 200 L 50 50 0 0 P
+X 14 14 900 -200 200 L 50 50 0 0 P
+X 15 15 900 -100 200 L 50 50 0 0 P
+X 16 16 900 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model VEML6040A3OG
+#/12853737/1475020/2.50/4/4/Integrated Circuit
+DEF VEML6040A3OG IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "VEML6040A3OG" 850 200 50 H V L CNN
+F2 "VEML6040A3OG" 850 100 50 H I L CNN
+F3 "https://www.vishay.com/docs/84276/veml6040.pdf" 850 0 50 H I L CNN
+F4 "Photo IC Sensors RGBW Clr Snsr w/I2C 16-Bit 2.5-3.6V" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "Vishay" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "VEML6040A3OG" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "78-VEML6040A3OG" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEML6040A3OG?qs=uWNRbsI0ZdO85N24FCwIew%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "VEML6040A3OG" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/veml6040a3og/vishay?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 1000 0 200 L 50 50 0 0 P
+X SDA 2 0 0 200 R 50 50 0 0 P
+X SCL 3 0 -100 200 R 50 50 0 0 P
+X VDD 4 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PEC12R-4017F-N0024
+#/1153314/1475020/2.50/5/4/Undefined or Miscellaneous
+DEF PEC12R-4017F-N0024 U 0 30 Y Y 1 F N
+F0 "U" 1150 300 50 H V L CNN
+F1 "PEC12R-4017F-N0024" 1150 200 50 H V L CNN
+F2 "PEC12R4017FN0024" 1150 100 50 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf" 1150 0 50 H I L CNN
+F4 "Bourns 24 Pulse Incremental Mechanical Rotary Encoder with a 6 mm Flat Shaft (Not Indexed), Through Hole" 1150 -100 50 H I L CNN "Description"
+F5 "17.5" 1150 -200 50 H I L CNN "Height"
+F6 "Bourns" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PEC12R-4017F-N0024" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "652-PEC12R-4017F-N24" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bourns/PEC12R-4017F-N0024?qs=Zq5ylnUbLm7uhnhkW4afHA%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "PEC12R-4017F-N0024" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "null?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CHANNEL_A A1 0 0 200 R 50 50 0 0 P
+X CHANNEL_B B1 0 -200 200 R 50 50 0 0 P
+X COMMON C1 0 -100 200 R 50 50 0 0 P
+X MH1 MH1 1300 0 200 L 50 50 0 0 P
+X MH2 MH2 1300 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PRS11R-415F-S103B1
+#/13806599/1475020/2.50/7/2/Variable Resistor
+DEF PRS11R-415F-S103B1 VR 0 30 Y Y 1 F N
+F0 "VR" 850 600 50 H V L CNN
+F1 "PRS11R-415F-S103B1" 850 500 50 H V L CNN
+F2 "PRS11R415FS103B1" 850 400 50 H I L CNN
+F3 "https://www.mouser.com/catalog/specsheets/Bourns_03252021_PRS11R_datasheet.pdf" 850 300 50 H I L CNN
+F4 "22 mm Rotary Metal Shaft Potentiometer" 850 200 50 H I L CNN "Description"
+F5 "21.8" 850 100 50 H I L CNN "Height"
+F6 "Bourns" 850 0 50 H I L CNN "Manufacturer_Name"
+F7 "PRS11R-415F-S103B1" 850 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "652-PRS11R415FS103B1" 850 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bourns/PRS11R-415F-S103B1?qs=IS%252B4QmGtzzqr7i5UCgusAg%3D%3D" 850 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "PRS11R-415F-S103B1" 850 -400 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/prs11r-415f-s103b1/bourns?region=nac" 850 -500 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CCW 1 400 -700 200 U 50 50 0 0 P
+X WIPER 2 500 -700 200 U 50 50 0 0 P
+X CW 3 600 -700 200 U 50 50 0 0 P
+X COM 4 400 600 200 D 50 50 0 0 P
+X NO 5 500 600 200 D 50 50 0 0 P
+X MH1 MH1 0 0 200 R 50 50 0 0 P
+X MH2 MH2 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 400 800 400 800 -500 200 -500 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TPS60150DRVR
+#/296862/1475020/2.50/7/3/Integrated Circuit
+DEF TPS60150DRVR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "TPS60150DRVR" 1050 200 50 H V L CNN
+F2 "SON65P200X200X80-7N" 1050 100 50 H I L CNN
+F3 "http://componentsearchengine.com/Datasheets/1/TPS60150DRVR.pdf" 1050 0 50 H I L CNN
+F4 "140mA, 5V Charge Pump in 2x2 SON" 1050 -100 50 H I L CNN "Description"
+F5 "0.8" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TPS60150DRVR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TPS60150DRVR" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS60150DRVR?qs=IDSsxkoac0y%252BLx112%2Ft7nA%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TPS60150DRVR" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tps60150drvr/texas-instruments?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 0 0 200 R 50 50 0 0 P
+X VIN 2 0 -100 200 R 50 50 0 0 P
+X VOUT 3 0 -200 200 R 50 50 0 0 P
+X EP 7 600 -700 200 U 50 50 0 0 P
+X ENA 6 1200 0 200 L 50 50 0 0 P
+X CP- 5 1200 -100 200 L 50 50 0 0 P
+X CP+ 4 1200 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LIS2MDLTR
+#/823284/1475020/2.50/12/4/Integrated Circuit
+DEF LIS2MDLTR IC 0 30 Y Y 1 F N
+F0 "IC" 1550 300 50 H V L CNN
+F1 "LIS2MDLTR" 1550 200 50 H V L CNN
+F2 "LGA-12" 1550 100 50 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/29/13/d1/e0/9a/4d/4f/30/DM00395193/files/DM00395193.pdf/jcr:content/translations/en.DM00395193.pdf" 1550 0 50 H I L CNN
+F4 "Board Mount Hall Effect / Magnetic Sensors" 1550 -100 50 H I L CNN "Description"
+F5 "" 1550 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1550 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LIS2MDLTR" 1550 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-LIS2MDLTR" 1550 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LIS2MDLTR?qs=5aG0NVq1C4wS0n6b5NiBNQ%3D%3D" 1550 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "LIS2MDLTR" 1550 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/lis2mdltr/stmicroelectronics?region=europe" 1550 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SCL/SPC 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X CS 3 0 -200 200 R 50 50 0 0 P
+X SDA/SDI/SDO 4 0 -300 200 R 50 50 0 0 P
+X C1 5 0 -400 200 R 50 50 0 0 P
+X GND_1 6 0 -500 200 R 50 50 0 0 P
+X INT/DRDY 7 1700 0 200 L 50 50 0 0 P
+X GND_2 8 1700 -100 200 L 50 50 0 0 P
+X VDD 9 1700 -200 200 L 50 50 0 0 P
+X VDD_IO 10 1700 -300 200 L 50 50 0 0 P
+X NC_2 11 1700 -400 200 L 50 50 0 0 P
+X NC_3 12 1700 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1500 100 1500 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LPS22HHTR
+#/1469123/1475020/2.50/10/4/Integrated Circuit
+DEF LPS22HHTR IC 0 30 Y Y 1 F N
+F0 "IC" 1450 700 50 H V L CNN
+F1 "LPS22HHTR" 1450 600 50 H V L CNN
+F2 "LPS22HHTR" 1450 500 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/lps22hh.pdf" 1450 400 50 H I L CNN
+F4 "STMICROELECTRONICS - LPS22HHTR - PRESSURE SENSOR, HLGA-10" 1450 300 50 H I L CNN "Description"
+F5 "" 1450 200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1450 100 50 H I L CNN "Manufacturer_Name"
+F7 "LPS22HHTR" 1450 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-LPS22HHTR" 1450 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LPS22HHTR?qs=lc2O%252BfHJPVbKAkJQGWFcLg%3D%3D" 1450 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "LPS22HHTR" 1450 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/lps22hhtr/stmicroelectronics?utm_currency=USD&region=europe" 1450 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VDD_IO 1 0 0 200 R 50 50 0 0 P
+X SCL/SPC 2 0 -100 200 R 50 50 0 0 P
+X RESERVED 3 700 -1300 200 U 50 50 0 0 P
+X SDA/SDI/SDI/SDO 4 800 -1300 200 U 50 50 0 0 P
+X SDO/SA0 5 900 -1300 200 U 50 50 0 0 P
+X CS 6 1600 -100 200 L 50 50 0 0 P
+X INT_DRDY 7 1600 0 200 L 50 50 0 0 P
+X GND_1 8 900 700 200 D 50 50 0 0 P
+X GND_2 9 800 700 200 D 50 50 0 0 P
+X VDD 10 700 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1400 500 1400 -1100 200 -1100 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model M22-5330205
+#/763361/1475020/2.50/2/2/Connector
+DEF M22-5330205 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "M22-5330205" 650 200 50 H V L CNN
+F2 "M225330205" 650 100 50 H I L CNN
+F3 "https://cdn.harwin.com/pdfs/M22-533.pdf" 650 0 50 H I L CNN
+F4 "Connector Header Surface Mount, Right Angle 2 position 0.079\" (2.00mm)" 650 -100 50 H I L CNN "Description"
+F5 "2.15" 650 -200 50 H I L CNN "Height"
+F6 "Harwin" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "M22-5330205" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "855-M22-5330205" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Harwin/M22-5330205?qs=vF78I%252BjhbY%2FvW6IxerQ9zg%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DMG1013UW-7
+#/268514/1475020/2.50/3/2/MOSFET (P-Channel)
+DEF DMG1013UW-7 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "DMG1013UW-7" 450 50 50 H V L CNN
+F2 "SOT65P210X110-3N" 450 -50 50 H I L CNN
+F3 "https://www.diodes.com//assets/Datasheets/ds31861.pdf" 450 -150 50 H I L CNN
+F4 "MOSFET P-Channel 20V 0.82A SOT323 Diodes Inc DMG1013UW-7 P-channel MOSFET Transistor, -0.82 A, -20 V, 3-Pin SOT-323" 450 -250 50 H I L CNN "Description"
+F5 "1.1" 450 -350 50 H I L CNN "Height"
+F6 "Diodes Incorporated" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "DMG1013UW-7" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-DMG1013UW-7" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1013UW-7?qs=GWgl%252BsiMZr9p7lJcuAyJvw%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "DMG1013UW-7" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/dmg1013uw-7/diodes-incorporated?region=nac" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LS4150GS08
+#/186959/1475020/2.50/2/4/Diode
+DEF LS4150GS08 D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "LS4150GS08" 450 100 50 H V L CNN
+F2 "BZT55B13GS08" 450 0 50 H I L CNN
+F3 "https://www.vishay.com/docs/85562/ls4150.pdf" 450 -100 50 H I L CNN
+F4 "Vishay LS4150GS08 SMT Switching Diode, 50V 600mA, 2-Pin Quadro Melf" 450 -200 50 H I L CNN "Description"
+F5 "1" 450 -300 50 H I L CNN "Height"
+F6 "Vishay" 450 -400 50 H I L CNN "Manufacturer_Name"
+F7 "LS4150GS08" 450 -500 50 H I L CNN "Manufacturer_Part_Number"
+F8 "78-LS4150" 450 -600 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/LS4150GS08?qs=RzxYCzJDjPXu3Zrfu5SCoA%3D%3D" 450 -700 50 H I L CNN "Mouser Price/Stock"
+F10 "" 450 -800 50 H I L CNN "Arrow Part Number"
+F11 "" 450 -900 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 0154010.DR
+#/925848/1475020/2.50/2/4/Fuse
+DEF 0154010.DR F 0 30 Y Y 1 F N
+F0 "F" 550 250 50 H V L CNN
+F1 "0154010.DR" 550 150 50 H V L CNN
+F2 "0154001.DRT" 550 50 50 H I L CNN
+F3 "http://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" 550 -50 50 H I L CNN
+F4 "Fuse SMD OMNI-BLOK FF 10A" 550 -150 50 H I L CNN "Description"
+F5 "" 550 -250 50 H I L CNN "Height"
+F6 "LITTELFUSE" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0154010.DR" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "576-0154010.DR" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/0154010.DR?qs=gu7KAQ731UR1GjoUWIO3aA%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "0154010.DR" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/0154010.dr/littelfuse?region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 2 0 1 6 200 0 500 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model VL53L5CXV0GC_1
+#/13535423/1475020/2.50/18/2/Integrated Circuit
+DEF VL53L5CXV0GC_1 IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "VL53L5CXV0GC_1" 1450 200 50 H V L CNN
+F2 "VL53L5CXV0GC1" 1450 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/vl53l5cxv0gc1/stmicroelectronics?region=nac" 1450 0 50 H I L CNN
+F4 "Proximity Sensors Time-of-Flight 8x8 multizone ranging sensor with wide field of view" 1450 -100 50 H I L CNN "Description"
+F5 "1.55" 1450 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "VL53L5CXV0GC/1" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-VL53L5CXV0GC/1" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L5CXV0GC-1?qs=QNEnbhJQKvZPmRJw6ASPyw%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "VL53L5CXV0GC/1" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/vl53l5cxv0gc1/stmicroelectronics?utm_currency=USD&region=nac" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X I2C_RST A1 0 0 200 R 50 50 0 0 P
+X RSVD4 A2 0 -100 200 R 50 50 0 0 P
+X INT A3 0 -200 200 R 50 50 0 0 P
+X IOVDD A4 0 -300 200 R 50 50 0 0 P
+X LPN A5 0 -400 200 R 50 50 0 0 P
+X RSVD1 A6 0 -500 200 R 50 50 0 0 P
+X RSVD2 A7 0 -600 200 R 50 50 0 0 P
+X GND_1 A8 0 -700 200 R 50 50 0 0 P
+X AVDD_1 B1 0 -800 200 R 50 50 0 0 P
+X THERMALPAD B4 1600 0 200 L 50 50 0 0 P
+X AVDD_2 B7 1600 -100 200 L 50 50 0 0 P
+X GND_2 C1 1600 -200 200 L 50 50 0 0 P
+X RSVD6 C2 1600 -300 200 L 50 50 0 0 P
+X SDA C3 1600 -400 200 L 50 50 0 0 P
+X SCL C4 1600 -500 200 L 50 50 0 0 P
+X RSVD5 C5 1600 -600 200 L 50 50 0 0 P
+X RSVD3 C6 1600 -700 200 L 50 50 0 0 P
+X GND_3 C7 1600 -800 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -900 200 -900 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 436331045822
+#/270541/1475020/2.50/4/3/Switch
+DEF 436331045822 S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "436331045822" 1050 200 50 H V L CNN
+F2 "436331045822" 1050 100 50 H I L CNN
+F3 "https://www.we-online.com/components/products/datasheet/436331045822.pdf" 1050 0 50 H I L CNN
+F4 "Black Tactile Switch, NO 50 mA@ 12 V dc 2.6mm Surface Mount" 1050 -100 50 H I L CNN "Description"
+F5 "1.65" 1050 -200 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "436331045822" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "710-436331045822" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/436331045822?qs=wr8lucFkNMXz9UbduBxtIQ%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X COM_1 1 1200 0 200 L 50 50 0 0 P
+X NO_1 2 1200 -100 200 L 50 50 0 0 P
+X COM_2 3 0 0 200 R 50 50 0 0 P
+X NO_2 4 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model X322516MOB4SI
+#/2386008/1475020/2.50/4/4/Crystal or Oscillator
+DEF X322516MOB4SI Y 0 30 Y Y 1 F N
+F0 "Y" 1450 300 50 H V L CNN
+F1 "X322516MOB4SI" 1450 200 50 H V L CNN
+F2 "X322516MOB4SI" 1450 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X322516MOB4SI_C12668.pdf" 1450 0 50 H I L CNN
+F4 "16MHz +/-10ppm SMD-3225_4P SMD Crystal Resonators" 1450 -100 50 H I L CNN "Description"
+F5 "0.8" 1450 -200 50 H I L CNN "Height"
+F6 "Yangxing Tech" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "X322516MOB4SI" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CRYSTAL_1 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1600 -100 200 L 50 50 0 0 P
+X CRYSTAL_2 3 1600 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BM04B-SRSS-TB_LF__SN_
+#/645081/1475020/2.50/4/4/Connector
+DEF BM04B-SRSS-TB_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "BM04B-SRSS-TB_LF__SN_" 650 200 50 H V L CNN
+F2 "BM04B-SRSS-TB(LFSN)" 650 100 50 H I L CNN
+F3 "http://www.jst.fr/core/file.get?path=doc/jst/family/pdf/eSH.pdf" 650 0 50 H I L CNN
+F4 "JST (JAPAN SOLDERLESS TERMINALS) - BM04B-SRSS-TB(LF)(SN) - HEADER, TOP ENTRY, 4WAY" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BM04B-SRSS-TB(LF)(SN)" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-SRSS-TBLFSN?qs=IKkN%2F947nfAyYAo%252BwvUjeQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SK-3296S-01-L1
+#/2409019/1475020/2.50/7/2/Connector
+DEF SK-3296S-01-L1 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "SK-3296S-01-L1" 850 200 50 H V L CNN
+F2 "SK3296S01L1" 850 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/XKB-SK-3296S-01-L1_C319020.pdf" 850 0 50 H I L CNN
+F4 "Toggle Switches SMD RoHS" 850 -100 50 H I L CNN "Description"
+F5 "1.4" 850 -200 50 H I L CNN "Height"
+F6 "XKB Connectivity" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SK-3296S-01-L1" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NO 1 0 0 200 R 50 50 0 0 P
+X COM 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 N
+X MP1 MP1 0 -300 200 R 50 50 0 0 P
+X MP2 MP2 1000 0 200 L 50 50 0 0 P
+X MP3 MP3 1000 -100 200 L 50 50 0 0 P
+X MP4 MP4 1000 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MSK12C02
+#/9979257/1475020/2.50/7/4/Switch
+DEF MSK12C02 S 0 30 Y Y 1 F N
+F0 "S" 850 300 50 H V L CNN
+F1 "MSK12C02" 850 200 50 H V L CNN
+F2 "MSK12C02" 850 100 50 H I L CNN
+F3 "https://shouhan.en.made-in-china.com/product/xsMEmqgOAXWB/China-Slide-Switch-Msk12c02-Slide-Switch-on-off-2-Position-1p2t-Spdt-Miniature-Horizontal-SMD-7p-Slide-Switch.html" 850 0 50 H I L CNN
+F4 "SMD Toggle Switches" 850 -100 50 H I L CNN "Description"
+F5 "1.4" 850 -200 50 H I L CNN "Height"
+F6 "Shou Han" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MSK12C02" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NC A1 0 0 200 R 50 50 0 0 N
+X COM B1 0 -100 200 R 50 50 0 0 P
+X NO C1 0 -200 200 R 50 50 0 0 P
+X MP1 MP1 0 -300 200 R 50 50 0 0 P
+X MP2 MP2 1000 0 200 L 50 50 0 0 P
+X MP3 MP3 1000 -100 200 L 50 50 0 0 P
+X MP4 MP4 1000 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SSM3J377R
+#/17205451/1475020/2.50/3/2/MOSFET (P-Channel)
+DEF SSM3J377R Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "SSM3J377R" 450 50 50 H V L CNN
+F2 "2SC2712GRLF" 450 -50 50 H I L CNN
+F3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=59203&prodName=SSM3J377R" 450 -150 50 H I L CNN
+F4 "P-ch MOSFET, -20 V, -3.9 A, 0.093 @4.5V, SOT-23F" 450 -250 50 H I L CNN "Description"
+F5 "0.88" 450 -350 50 H I L CNN "Height"
+F6 "Toshiba" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "SSM3J377R" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3J377R?qs=By6Nw2ByBD3ZulqG9BNnPw%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "" 450 -950 50 H I L CNN "Arrow Price/Stock"
+F12 "https://toshiba.semicon-storage.com/info/lookup.jsp?pid=SSM3J377R#documents" 450 -1050 50 H I L CNN "Simulation Data"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B3U-3100PM-B
+#/807654/1475020/2.50/3/3/Switch
+DEF B3U-3100PM-B S 0 30 Y Y 1 F N
+F0 "S" 1250 300 50 H V L CNN
+F1 "B3U-3100PM-B" 1250 200 50 H V L CNN
+F2 "B3U3100PMB" 1250 100 50 H I L CNN
+F3 "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3U-3100PM-B/2754807?msockid=3e3afa68a50969ca3057ef1ca4c9684b" 1250 0 50 H I L CNN
+F4 "SWITCH TACTILE SPST-NO 0.05A 12V" 1250 -100 50 H I L CNN "Description"
+F5 "1.35" 1250 -200 50 H I L CNN "Height"
+F6 "Omron Electronics" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "B3U-3100PM-B" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "653-B3U-3100PM-B" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3U-3100PM-B?qs=hnUcNC2tU0pNRs1a1rmRcQ%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "B3U-3100PM-B" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/b3u-3100pm-b/omron?region=nac" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X COM 1 1400 -100 200 L 50 50 0 0 P
+X NO 2 1400 0 200 L 50 50 0 0 P
+X NO_CONNECT 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SI4435FDY-T1-GE3
+#/978073/1475020/2.50/8/3/Integrated Circuit
+DEF SI4435FDY-T1-GE3 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SI4435FDY-T1-GE3" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 850 100 50 H I L CNN
+F3 "http://www.vishay.com/docs/75339/si4435fdy.pdf" 850 0 50 H I L CNN
+F4 "MOSFET -30V Vds 20V Vgs SO-8" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "Vishay" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SI4435FDY-T1-GE3" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "78-SI4435FDY-T1-GE3" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SI4435FDY-T1-GE3?qs=5aG0NVq1C4xQGGDhrvDhZQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SI4435FDY-T1-GE3" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/si4435fdy-t1-ge3/vishay?region=europe" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_4 8 1000 0 200 L 50 50 0 0 P
+X D_3 7 1000 -100 200 L 50 50 0 0 P
+X D_2 6 1000 -200 200 L 50 50 0 0 P
+X D_1 5 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SSM3K339R,LF
+#/253595/1475020/2.50/3/4/MOSFET (N-Channel)
+DEF SSM3K339R,LF Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "SSM3K339R,LF" 450 50 50 H V L CNN
+F2 "SOTFL95P240X88-3N" 450 -50 50 H I L CNN
+F3 "https://www.arrow.com/en/products/ssm3k339rlf/toshiba" 450 -150 50 H I L CNN
+F4 "Trans MOSFET N-CH Si 40V 2A 3-Pin SOT-23F T/R" 450 -250 50 H I L CNN "Description"
+F5 "0.88" 450 -350 50 H I L CNN "Height"
+F6 "Toshiba" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "SSM3K339R,LF" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "757-SSM3K339RLF" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3K339RLF?qs=vPP9GyyTAo2h4IM%252B%252BLvR%252BA%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "SSM3K339R,LF" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ssm3k339rlf/toshiba?region=nac" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

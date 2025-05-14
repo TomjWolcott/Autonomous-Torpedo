@@ -1,0 +1,244 @@
+(footprint "BZT55B13GS08"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "QuadroMELF SOD-80")
+	(tags "Diode")
+	(property "Reference" "D**"
+		(at -0.25 0 0)
+		(layer "F.SilkS")
+		(uuid "3e4b3243-c6ff-4ae7-9f3b-c34bcb428869")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BZT55B13GS08"
+		(at -0.25 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "48467d9a-f693-4b86-9313-4ceac836a4db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc148d97-7333-4806-a0b6-7e6c32afa023")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e90ce57-f7ea-4c4b-92b2-6d400a54682d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a79f4bcc-08a6-440c-9823-9435efaa3e96")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.9 -0.1)
+		(end -2.9 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b16b56d1-6a83-4b71-a42f-52eac21e777c")
+	)
+	(fp_line
+		(start -2.9 0.1)
+		(end -2.9 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c4f2af7-23e8-409b-9e7f-ff14213a3b8f")
+	)
+	(fp_line
+		(start -1 -0.75)
+		(end 1 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9299beb-398e-43e0-a63b-74f7f5a66832")
+	)
+	(fp_line
+		(start -1 0.75)
+		(end 1 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0db7b0b5-2fc2-45f7-808c-762bcd1f0006")
+	)
+	(fp_arc
+		(start -2.9 -0.1)
+		(mid -2.8 0)
+		(end -2.9 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa4a13ea-e974-4414-b388-4c38329bbbcd")
+	)
+	(fp_arc
+		(start -2.9 0.1)
+		(mid -3 0)
+		(end -2.9 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f49cbfe-98be-4a84-88ac-db57dfdb8e65")
+	)
+	(fp_line
+		(start -4 -2)
+		(end 3.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4839aee-bdd5-45fd-9fdd-cbf96c3ba6a9")
+	)
+	(fp_line
+		(start -4 2)
+		(end -4 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54f0532c-fc8e-4140-90f5-2a1d8ddf5449")
+	)
+	(fp_line
+		(start 3.5 -2)
+		(end 3.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dbc6880b-7d23-40cb-9b94-61f2332b83bd")
+	)
+	(fp_line
+		(start 3.5 2)
+		(end -4 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e22f21c2-cb59-4462-98e2-d39a5eb7755b")
+	)
+	(fp_line
+		(start -1.75 -0.75)
+		(end 1.75 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81e07a9b-b68d-4438-b84c-e898d90e3e68")
+	)
+	(fp_line
+		(start -1.75 0.75)
+		(end -1.75 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0208ac9-795f-4149-b5f1-979226e7ff4f")
+	)
+	(fp_line
+		(start 1.75 -0.75)
+		(end 1.75 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d43096fb-6ed2-4fb5-a18a-4bef5b255ca5")
+	)
+	(fp_line
+		(start 1.75 0.75)
+		(end -1.75 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a155954-29f5-49eb-9fca-377ffa521791")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.25 0 0)
+		(layer "F.Fab")
+		(uuid "656978a3-e0d7-41f1-81aa-d02be1d86fb0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.875 0)
+		(size 1.25 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a302ed77-aa2e-4055-9ce1-b4a87f9c0535")
+	)
+	(pad "2" smd rect
+		(at 1.875 0)
+		(size 1.25 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2274c7b1-d2a2-4556-a16f-5d6a29659c67")
+	)
+	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/LS4150GS08.stp"
+		(offset
+			(xyz -0.04999999999 0 0.7999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

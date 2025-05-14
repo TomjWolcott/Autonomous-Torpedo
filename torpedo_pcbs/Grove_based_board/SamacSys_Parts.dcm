@@ -1,0 +1,225 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 503480-2200
+D MOLEX - 503480-2200 - CONNECTOR, FPC, RCPT, 22POS, 1ROW
+K
+F https://www.molex.com/pdm_docs/sd/5034802200_sd.pdf
+$ENDCMP
+#
+$CMP 2005280040
+D Easy-On FFC/FPC Connector, 1mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.9mm Height, 4 Circuits, Gold over Nickel Plating
+K
+F https://www.molex.com/pdm_docs/ps/2005280000.pdf
+$ENDCMP
+#
+$CMP 503480-0440
+D Connector FFC/FPC SKT 4 Position 0.5mm Solder Right Angle Surface Mount T/R
+K
+F https://www.molex.com/pdm_docs/sd/5034800440_sd.pdf
+$ENDCMP
+#
+$CMP ICM-20948
+D IMUs - Inertial Measurement Units World's Lowest Power 9-Axis MEMS MotionTracking Device
+K
+F https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ds-000189-icm-20948-v1.3.pdf
+$ENDCMP
+#
+$CMP 2328702-6
+D Body Features: Actuator Color Black | Primary Product Color Natural | Configuration Features: Compatible With Wire & Cable Type FFC | Compatible With Wire & Cable Type FPC | Number of Rows 1 | Number of Positions 6 | PCB Mount Orientation Right Angle | Contact Features: PCB Contact Termination Area Plating Material Gold | Contact Layout Inline | Contact Base Material Copper Alloy | Contact Current Rating (Max) .5 AMP | Contact Mating Area Plating Material Gold | Contact Mating Location Dual Side | Contact S
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773959-7-FPC-Connectors-CN&DocType=Data%20Sheet&DocLang=Chinese (Simplified)&PartCntxt=2328702-6&DocFormat=pdf
+$ENDCMP
+#
+$CMP 158301260A
+D WURTH ELEKTRONIK - 158301260A - High Brightness LED, WL-SWTP Series, Cool White, 120 , 26 lm, 6000 K, 150 mA
+K
+F https://www.we-online.com/catalog/datasheet/158301260A.pdf
+$ENDCMP
+#
+$CMP 1744446-8
+D Body Features: Primary Product Color Natural | Configuration Features: Number of Positions 8 | PCB Mount Orientation Right Angle | Number of Rows 1 | Contact Features: Contact Mating Area Plating Material Thickness 2  5 MICM | Contact Layout Inline | PCB Contact Termination Area Plating Material Thickness 2.032 MICM | PCB Contact Termination Area Plating Material Tin | Contact Mating Area Plating Material Tin | Contact Type Pin | Mating Pin Diameter .6 MM | Mating Pin Diameter .024 INCH | Contact Mating 
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=7-1773461-6EP2.5&DocType=Data%20Sheet&DocLang=English&PartCntxt=1744446-8&DocFormat=pdf
+$ENDCMP
+#
+$CMP 66200411022
+D WR-MPC3 3.00 mm Male Single Row Angled Header w. Plastic Pegs - THT - Tin
+K
+F https://www.we-online.com/components/products/datasheet/66200411022.pdf
+$ENDCMP
+#
+$CMP S8B-EH
+D Connector,PCB,side entry header,2.5mm pitch,8 way
+K
+F http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+$ENDCMP
+#
+$CMP DRV8213DSGR
+D Motor Drives 11-V 4-A brushed DC motor driver with intergrated current sense, current regulation and stall detect 8-WSON -40 to 125
+K
+F https://www.ti.com/lit/ds/symlink/drv8213.pdf?ts=1703739910534&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fproduct%252Fcn%252FDRV8213
+$ENDCMP
+#
+$CMP STM32G473CBU6
+D ARM Microcontrollers - MCU 16/32-BITS MICROS
+K
+F https://www.st.com/resource/en/datasheet/stm32g473cb.pdf
+$ENDCMP
+#
+$CMP AP7362-33SP-13
+D LDO Voltage Regulators LDO CMOS HiCurr SO-8 1.5A LowQ Adj 190mV
+K
+F https://www.diodes.com//assets/Datasheets/AP7362.pdf
+$ENDCMP
+#
+$CMP TC1015-1.8VCT713
+D LDO regulator, +1.8V 100mA, SOT23-5 Microchip TC1015-1.8VCT713, LDO Voltage Regulator, 100mA, 1.8 V +/-2.5%, 2.7  6 Vin, 5-Pin SOT-23
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011417
+$ENDCMP
+#
+$CMP TPS76918DBVR
+D Ultra Low Power 100mA Low Dropout Linear Regulator
+K
+F http://www.ti.com/lit/gpn/tps769
+$ENDCMP
+#
+$CMP FTSH-107-01-L-DV-K-P-TR
+D Samtec, FTSH, 14 Way, 2 Row, Vertical Pin Header
+K
+F http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf
+$ENDCMP
+#
+$CMP 009276008021106
+D AVX INTERCONNECT - 009276008021106 - CONNECTOR, IDC, 8 WAY, 18 AWG
+K
+F https://www.mouser.com/datasheet/2/40/PokeHomeHorizontal_00_9276-3165415.pdf
+$ENDCMP
+#
+$CMP VEML6040A3OG
+D Photo IC Sensors RGBW Clr Snsr w/I2C 16-Bit 2.5-3.6V
+K
+F https://www.vishay.com/docs/84276/veml6040.pdf
+$ENDCMP
+#
+$CMP PEC12R-4017F-N0024
+D Bourns 24 Pulse Incremental Mechanical Rotary Encoder with a 6 mm Flat Shaft (Not Indexed), Through Hole
+K
+F https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf
+$ENDCMP
+#
+$CMP PRS11R-415F-S103B1
+D 22 mm Rotary Metal Shaft Potentiometer
+K
+F https://www.mouser.com/catalog/specsheets/Bourns_03252021_PRS11R_datasheet.pdf
+$ENDCMP
+#
+$CMP TPS60150DRVR
+D 140mA, 5V Charge Pump in 2x2 SON
+K
+F http://componentsearchengine.com/Datasheets/1/TPS60150DRVR.pdf
+$ENDCMP
+#
+$CMP LIS2MDLTR
+D Board Mount Hall Effect / Magnetic Sensors
+K
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/29/13/d1/e0/9a/4d/4f/30/DM00395193/files/DM00395193.pdf/jcr:content/translations/en.DM00395193.pdf
+$ENDCMP
+#
+$CMP LPS22HHTR
+D STMICROELECTRONICS - LPS22HHTR - PRESSURE SENSOR, HLGA-10
+K
+F https://www.st.com/resource/en/datasheet/lps22hh.pdf
+$ENDCMP
+#
+$CMP M22-5330205
+D Connector Header Surface Mount, Right Angle 2 position 0.079" (2.00mm)
+K
+F https://cdn.harwin.com/pdfs/M22-533.pdf
+$ENDCMP
+#
+$CMP DMG1013UW-7
+D MOSFET P-Channel 20V 0.82A SOT323 Diodes Inc DMG1013UW-7 P-channel MOSFET Transistor, -0.82 A, -20 V, 3-Pin SOT-323
+K
+F https://www.diodes.com//assets/Datasheets/ds31861.pdf
+$ENDCMP
+#
+$CMP LS4150GS08
+D Vishay LS4150GS08 SMT Switching Diode, 50V 600mA, 2-Pin Quadro Melf
+K
+F https://www.vishay.com/docs/85562/ls4150.pdf
+$ENDCMP
+#
+$CMP 0154010.DR
+D Fuse SMD OMNI-BLOK FF 10A
+K
+F http://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP VL53L5CXV0GC_1
+D Proximity Sensors Time-of-Flight 8x8 multizone ranging sensor with wide field of view
+K
+F https://www.arrow.com/en/products/vl53l5cxv0gc1/stmicroelectronics?region=nac
+$ENDCMP
+#
+$CMP 436331045822
+D Black Tactile Switch, NO 50 mA@ 12 V dc 2.6mm Surface Mount
+K
+F https://www.we-online.com/components/products/datasheet/436331045822.pdf
+$ENDCMP
+#
+$CMP X322516MOB4SI
+D 16MHz +/-10ppm SMD-3225_4P SMD Crystal Resonators
+K
+F https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X322516MOB4SI_C12668.pdf
+$ENDCMP
+#
+$CMP BM04B-SRSS-TB_LF__SN_
+D JST (JAPAN SOLDERLESS TERMINALS) - BM04B-SRSS-TB(LF)(SN) - HEADER, TOP ENTRY, 4WAY
+K
+F http://www.jst.fr/core/file.get?path=doc/jst/family/pdf/eSH.pdf
+$ENDCMP
+#
+$CMP SK-3296S-01-L1
+D Toggle Switches SMD RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/XKB-SK-3296S-01-L1_C319020.pdf
+$ENDCMP
+#
+$CMP MSK12C02
+D SMD Toggle Switches
+K
+F https://shouhan.en.made-in-china.com/product/xsMEmqgOAXWB/China-Slide-Switch-Msk12c02-Slide-Switch-on-off-2-Position-1p2t-Spdt-Miniature-Horizontal-SMD-7p-Slide-Switch.html
+$ENDCMP
+#
+$CMP SSM3J377R
+D P-ch MOSFET, -20 V, -3.9 A, 0.093 @4.5V, SOT-23F
+K
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=59203&prodName=SSM3J377R
+$ENDCMP
+#
+$CMP B3U-3100PM-B
+D SWITCH TACTILE SPST-NO 0.05A 12V
+K
+F https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3U-3100PM-B/2754807?msockid=3e3afa68a50969ca3057ef1ca4c9684b
+$ENDCMP
+#
+$CMP SI4435FDY-T1-GE3
+D MOSFET -30V Vds 20V Vgs SO-8
+K
+F http://www.vishay.com/docs/75339/si4435fdy.pdf
+$ENDCMP
+#
+$CMP SSM3K339R,LF
+D Trans MOSFET N-CH Si 40V 2A 3-Pin SOT-23F T/R
+K
+F https://www.arrow.com/en/products/ssm3k339rlf/toshiba
+$ENDCMP
+#
+#End Doc Library

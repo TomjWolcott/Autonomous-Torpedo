@@ -1,0 +1,133 @@
+(footprint "EN10HT1212N5HH3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "91341a6f-4048-47be-99ea-8ab37654dfe4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EN10HT1212N5HH3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "89f50210-dd45-4942-8603-f38713574712")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80ee9cf8-d569-4766-bfc2-65cfcf4670ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50f05310-cdcd-4277-b296-296cdeed6855")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ff48ee5-6573-43b3-a96b-00f2309854b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0735b0bd-93dc-4e10-8f20-e3bfd38b09b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.2 1.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2433c2e1-4212-450f-9d20-3cf5fe2ef2f5")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1496768c-5065-4c71-b99a-8db13fe6d5a0")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 0)
+		(size 1.2 1.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9012ff0-ba70-462b-a2df-df554c8ea4ac")
+	)
+	(pad "4" thru_hole oval
+		(at -5.525 5.5)
+		(size 1.75 2.4)
+		(drill oval 1.55 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24754f9e-cbf7-4094-b5e4-40550d4264e5")
+	)
+	(pad "5" thru_hole oval
+		(at 5.525 5.5)
+		(size 1.75 2.4)
+		(drill oval 1.55 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a30bb0ec-8ec7-45db-ad18-74078664e807")
+	)
+	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/EN10HT1212N5HH3.stp"
+		(offset
+			(xyz 0 -6.8 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
