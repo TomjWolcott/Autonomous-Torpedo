@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -68,61 +68,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start -11.46 30.05)
-		(end 11.46 35.4)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "f3ac272d-bc2a-4388-aa7b-b8395eb03a04")
-	)
-	(fp_rect
-		(start -10 -2.85)
-		(end -6.7 16.45)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "96a4b8bc-7b61-4f95-ac28-293d4acb6889")
-	)
-	(fp_rect
-		(start -10 -2.85)
-		(end 10 37.15)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "2de8131e-c3f6-4839-8416-2ae7a509a63c")
-	)
-	(fp_rect
-		(start -4.5 -4.55)
-		(end 4.5 2.85)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "bf744c47-5f31-4546-8642-8b500c2af650")
-	)
-	(fp_rect
-		(start 6.7 -2.85)
-		(end 10 16.45)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "f35d1bdc-5e76-479e-bc1c-2cb67700816a")
-	)
 	(fp_line
 		(start -8.4 0)
 		(end 8.4 0)
@@ -142,6 +87,61 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "1c89af68-64ef-4939-b4c6-bc7078ffa374")
+	)
+	(fp_rect
+		(start -11.46 30.05)
+		(end 11.46 35.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "f3ac272d-bc2a-4388-aa7b-b8395eb03a04")
+	)
+	(fp_rect
+		(start -10 -2.85)
+		(end -6.7 16.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "96a4b8bc-7b61-4f95-ac28-293d4acb6889")
+	)
+	(fp_rect
+		(start -10 -2.85)
+		(end 10 37.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "2de8131e-c3f6-4839-8416-2ae7a509a63c")
+	)
+	(fp_rect
+		(start -4.5 -4.55)
+		(end 4.5 2.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "bf744c47-5f31-4546-8642-8b500c2af650")
+	)
+	(fp_rect
+		(start 6.7 -2.85)
+		(end 10 16.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "f35d1bdc-5e76-479e-bc1c-2cb67700816a")
 	)
 	(fp_rect
 		(start -9.45 4.29)
@@ -166,79 +166,79 @@
 		(uuid "8017b146-632b-4940-8a7c-062477e452cd")
 	)
 	(fp_text user "GND"
-		(at 9.8 5.94 90)
+		(at 8.45 5.65 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "088a36f7-a331-454c-856e-bfc3e3fb9987")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "SCL"
-		(at -9.2 13.54 90)
+		(at -9.85 13.3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4e659fde-1406-4d51-8933-fe1092078039")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(fp_text user "D2"
-		(at -9.2 5.64 90)
+		(at -10.55 5.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "785b692d-76fe-46eb-8c26-251518f71b61")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "3.3V"
-		(at 9.8 3.44 90)
+		(at 8.45 3.15 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c42ce7c9-da30-453b-a11f-814e8d46f745")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "SDA"
-		(at -9.2 10.84 90)
+		(at -11.35 10.85 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "cf1889de-fbf8-4221-a242-ec7f013cd133")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "RST"
-		(at -9.2 8.44 90)
+		(at -11.35 8.35 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d60ddde3-5858-438d-bb7f-647033b49b0b")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -256,134 +256,101 @@
 		)
 	)
 	(pad "3" thru_hole circle
-		(at -8.4 5.12)
-		(size 1.2 1.2)
-		(drill 0.75)
+		(at -7.62 5.12)
+		(size 1.4 1.4)
+		(drill 1.143)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
 		(uuid "4832923c-9bce-4c63-b50d-5fe582453b09")
 	)
 	(pad "4" thru_hole circle
-		(at -8.4 7.66)
-		(size 1.2 1.2)
-		(drill 0.75)
+		(at -7.62 7.66)
+		(size 1.4 1.4)
+		(drill 1.143)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
 		(uuid "dc725d24-6bde-445a-8c17-9e2732d17e7e")
 	)
 	(pad "5" thru_hole circle
-		(at -8.4 10.2)
-		(size 1.2 1.2)
-		(drill 0.75)
+		(at -7.62 10.2)
+		(size 1.4 1.4)
+		(drill 1.143)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
 		(uuid "b2dab1b7-6bd7-4009-9482-4c8a9418f3f7")
 	)
 	(pad "6" thru_hole circle
-		(at -8.4 12.74)
-		(size 1.2 1.2)
-		(drill 0.75)
+		(at -7.62 12.74)
+		(size 1.4 1.4)
+		(drill 1.143)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
 		(uuid "140e0636-18ca-4d5f-bd44-51cd84d9877e")
 	)
 	(pad "12" thru_hole circle
-		(at 8.4 5.12)
-		(size 1.2 1.2)
-		(drill 0.75)
+		(at 7.62 5.12)
+		(size 1.4 1.4)
+		(drill 1.143)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
 		(uuid "5cfc9dc0-e819-4335-b375-be445c232db0")
 	)
 	(pad "13" thru_hole circle
-		(at 8.4 2.58)
-		(size 1.2 1.2)
-		(drill 0.75)
+		(at 7.62 2.58)
+		(size 1.4 1.4)
+		(drill 1.143)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
 		(uuid "f6a89c16-d6c7-4542-b24d-2565991ccd7e")
 	)
-	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/M22-5330205.STEP"
+	(model "${KIPRJMOD}/Grove - Vision AI Module V2.STEP"
 		(offset
-			(xyz -7.65 -3.08 4)
+			(xyz -24.3 2.3 6.3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 90)
+			(xyz 180 0 90)
 		)
 	)
-	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/grove_ai_v2.STEP"
+	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/mill-max-0531-0-15-01-31-XX-10-0.step"
 		(offset
-			(xyz -9.9 -37.1 6.2)
+			(xyz 7.62 -2.58 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 90)
+			(xyz 0 -90 0)
 		)
 	)
-	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/M22-5330205.STEP"
+	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/68001-x04.igs"
 		(offset
-			(xyz 7.65 -4.54 4)
+			(xyz -7.62 -5.08 5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -90)
+			(xyz 90 0 90)
 		)
 	)
-	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/M22-5330205.STEP"
+	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/68000-x02.igs"
 		(offset
-			(xyz 7.65 -7.08 4)
+			(xyz 7.62 -2.54 5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -90)
-		)
-	)
-	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/M22-5330205.STEP"
-		(offset
-			(xyz -7.65 -5.62 4)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 90)
-		)
-	)
-	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/M22-5330205.STEP"
-		(offset
-			(xyz -7.65 -8.16 4)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 90)
-		)
-	)
-	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/M22-5330205.STEP"
-		(offset
-			(xyz -7.65 -10.7 4)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 90)
+			(xyz 90 0 90)
 		)
 	)
 )

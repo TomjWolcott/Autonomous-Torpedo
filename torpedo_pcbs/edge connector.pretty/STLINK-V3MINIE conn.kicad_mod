@@ -142,6 +142,136 @@
 		(layer "F.CrtYd")
 		(uuid "7f265132-9511-4649-9cc0-be98878cc2b2")
 	)
+	(fp_text user "TX"
+		(at -0.6 3.9 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "0030b1a7-f57c-4c3b-a527-68abaae4cff4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "GND"
+		(at 3.4 5.15 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "16494a03-c8c9-44e0-8ebc-42c3ef6c64d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "RX"
+		(at 1.4 4.1 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "a4322f0a-c2ef-4a15-bcc0-bd47e4211373")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "RST"
+		(at -2.6 4.9 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "f0960c46-a009-4ae5-9b8f-6d056513aa35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "VCC"
+		(at -4.6 5 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "f801125a-4bc5-4fa0-8f34-05c9fa017290")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "NC"
+		(at 4.65 4.2 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "17cff649-6847-4bcc-a33d-32bcdc8bbc61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CLK"
+		(at -1.35 4.95 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "470f4c37-3cfe-40bb-887d-0ed900dca23a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "TDO"
+		(at -3.35 4.95 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "56cef71c-7b89-4196-bfb0-524a2a91fe51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "TDI"
+		(at 2.65 4.35 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9f867204-96d4-4be6-ab1b-f9bb6bacd032")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "TMS"
+		(at 0.65 4.95 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b954da8e-8d91-4f2a-9a93-bdd855e308b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 6 0)
 		(unlocked yes)

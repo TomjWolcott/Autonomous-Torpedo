@@ -5,6 +5,116 @@
 	(uuid "e481a0a7-d92f-423b-8454-fe10047fa3c9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -1289,20 +1399,8 @@
 		(uuid "ef768dda-da51-4f07-8e53-8f8343ef8184")
 	)
 	(no_connect
-		(at 50.8 106.68)
-		(uuid "6b362b0a-6ee9-4585-bd46-7f745eae9764")
-	)
-	(no_connect
 		(at 73.66 100.33)
 		(uuid "bfb235e9-ddd1-4ad2-92d9-17baf598ef82")
-	)
-	(no_connect
-		(at 26.67 59.69)
-		(uuid "dc91bb40-91d7-45bf-a9ae-3c03a1e3bed7")
-	)
-	(no_connect
-		(at 26.67 57.15)
-		(uuid "e374480c-8e96-4393-932d-4b0f0caaf9d9")
 	)
 	(wire
 		(pts
@@ -1426,7 +1524,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 24.13) (xy 39.37 26.67)
+			(xy 39.37 24.13) (xy 39.37 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1436,13 +1534,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 26.67) (xy 39.37 26.67)
+			(xy 29.21 26.67) (xy 26.67 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b6671e4-8ec8-4c30-a0ac-bac528baeb73")
+		(uuid "3b4a7c94-1abd-49ad-943f-aa7193ae3596")
 	)
 	(wire
 		(pts
@@ -1453,6 +1551,16 @@
 			(type default)
 		)
 		(uuid "40bdd8a9-57e2-41bd-b93f-9765e8f63ec1")
+	)
+	(wire
+		(pts
+			(xy 26.67 52.07) (xy 39.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419d8157-47ee-482d-afd2-91a95a5b0a5e")
 	)
 	(wire
 		(pts
@@ -1506,6 +1614,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 29.21) (xy 26.67 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524061ac-21d4-4606-ab31-ae6d3776ca52")
+	)
+	(wire
+		(pts
 			(xy 73.66 107.95) (xy 86.36 107.95)
 		)
 		(stroke
@@ -1556,16 +1674,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 54.61) (xy 26.67 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "729ba7d5-08e1-403d-a93d-40faa2cffb59")
-	)
-	(wire
-		(pts
 			(xy 29.21 100.33) (xy 29.21 102.87)
 		)
 		(stroke
@@ -1593,16 +1701,6 @@
 			(type default)
 		)
 		(uuid "832aaff0-a41d-4cc6-aa71-ffdd36fe898e")
-	)
-	(wire
-		(pts
-			(xy 29.21 52.07) (xy 26.67 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d16aa19-38a4-44e4-812e-6d992f8523ea")
 	)
 	(wire
 		(pts
@@ -1716,6 +1814,26 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 57.15) (xy 26.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c42090-0e30-4b62-85c7-0a9bc20f51f1")
+	)
+	(wire
+		(pts
+			(xy 29.21 59.69) (xy 26.67 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37c0e76-5c53-4a1a-a00c-1180299fa89d")
+	)
+	(wire
+		(pts
 			(xy 86.36 44.45) (xy 86.36 40.64)
 		)
 		(stroke
@@ -1723,16 +1841,6 @@
 			(type default)
 		)
 		(uuid "c3887ec9-524d-4362-bcb9-45e918490ea0")
-	)
-	(wire
-		(pts
-			(xy 29.21 29.21) (xy 26.67 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c54c7090-6b99-46b1-920b-b89e1a2a299a")
 	)
 	(wire
 		(pts
@@ -1756,6 +1864,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 48.26) (xy 39.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de264d16-947c-41ce-88ec-6949594045e3")
+	)
+	(wire
+		(pts
 			(xy 86.36 85.09) (xy 86.36 107.95)
 		)
 		(stroke
@@ -1763,6 +1881,16 @@
 			(type default)
 		)
 		(uuid "df5bcbc3-ae54-42ce-b75a-95df36cb2f6d")
+	)
+	(wire
+		(pts
+			(xy 26.67 54.61) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1adac03-a069-4c5b-be68-8387998f9c82")
 	)
 	(wire
 		(pts
@@ -1783,6 +1911,16 @@
 			(type default)
 		)
 		(uuid "e28e260d-eb08-43e9-9c2d-d5493f84a06f")
+	)
+	(wire
+		(pts
+			(xy 39.37 58.42) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60f8f63-5eb2-4239-b3ea-51fefbabad77")
 	)
 	(wire
 		(pts
@@ -1816,7 +1954,7 @@
 	)
 	(text "Must be close to the VL53L1X"
 		(exclude_from_sim no)
-		(at 125.984 86.36 0)
+		(at 127.762 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1835,6 +1973,17 @@
 		)
 		(uuid "0920387f-09e0-40cd-814e-952fba26d8fb")
 	)
+	(label "SDA"
+		(at 29.21 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ec954d5-45e9-4ec4-af65-b27f8a4336f9")
+	)
 	(label "SCL"
 		(at 113.03 38.1 0)
 		(fields_autoplaced yes)
@@ -1846,6 +1995,17 @@
 		)
 		(uuid "10381bef-cd45-4ff1-b7a6-e71d1ba06586")
 	)
+	(label "GPIO1"
+		(at 29.21 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "107c8a80-d869-4f6d-802a-55228b0ef926")
+	)
 	(label "SCL"
 		(at 29.21 24.13 0)
 		(fields_autoplaced yes)
@@ -1856,6 +2016,17 @@
 			(justify left bottom)
 		)
 		(uuid "276d5146-7e87-4e77-8eb7-87dd9e52fd60")
+	)
+	(label "SCL"
+		(at 124.46 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36c40ef6-5820-405d-8ac0-9e9b81810cc7")
 	)
 	(label "SDA"
 		(at 113.03 40.64 0)
@@ -1869,6 +2040,17 @@
 		(uuid "5d22e90a-a5fd-476c-b8b0-391c62c0b8e1")
 	)
 	(label "xShut"
+		(at 29.21 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67f031a0-0218-4697-be0d-be5aeb489604")
+	)
+	(label "xShut"
 		(at 36.83 107.95 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1880,15 +2062,15 @@
 		(uuid "83a95e1a-7dca-44de-aa44-9e7746f86dca")
 	)
 	(label "SDA"
-		(at 29.21 29.21 0)
+		(at 124.46 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "95855d8c-1afd-484a-8ff5-33c6ff0f0181")
+		(uuid "a4e006e8-bc86-4b7c-9eee-1f7b4533ff39")
 	)
 	(label "GPIO1"
 		(at 73.66 97.79 0)
@@ -1902,17 +2084,6 @@
 		(uuid "b8b782fc-ea91-44f8-9051-8721b3ad1a0f")
 	)
 	(label "xShut"
-		(at 29.21 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8585a64-94ac-4653-9c33-9019d1c8dfb7")
-	)
-	(label "xShut"
 		(at 21.59 111.76 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1922,17 +2093,6 @@
 			(justify right bottom)
 		)
 		(uuid "e2665f53-0d2d-4ff6-b5e6-f72bd696b241")
-	)
-	(label "GPIO1"
-		(at 29.21 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f55edcf4-9a11-46b6-9bfe-ee3a22bb92ca")
 	)
 	(label "SDA"
 		(at 76.2 102.87 0)
@@ -2000,7 +2160,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C24452"
 			(at 109.22 95.25 0)
 			(effects
 				(font
@@ -2145,7 +2305,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 24.13 102.87 0)
 			(effects
 				(font
@@ -2164,6 +2324,73 @@
 			(project "Flex_pcb_sensors"
 				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 129.54 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20103025-2a06-4f8c-b8f2-0cefca5ac594")
+		(property "Reference" "J3"
+			(at 132.08 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 132.08 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc16ff7d-d4d8-4f55-b803-3e8898159a2e")
+		)
+		(instances
+			(project "Flex_pcb_sensors"
+				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2224,7 +2451,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C24452"
 			(at 81.28 39.37 0)
 			(effects
 				(font
@@ -2528,7 +2755,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C190004"
 			(at 38.1 97.79 0)
 			(effects
 				(font
@@ -2577,6 +2804,72 @@
 			(project "Flex_pcb_sensors"
 				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45e6becd-fa2f-4364-84a0-5e584b3f1418")
+		(property "Reference" "#PWR012"
+			(at 39.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "105704c5-3ced-4c5b-8c98-9cb227a9437d")
+		)
+		(instances
+			(project "Flex_pcb_sensors"
+				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2643,6 +2936,72 @@
 			(project "Flex_pcb_sensors"
 				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 39.37 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d24d115-7a81-4bef-a6b6-b72894624bfb")
+		(property "Reference" "#PWR011"
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 39.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbed8459-09fd-4cad-af1a-ad9785d11e32")
+		)
+		(instances
+			(project "Flex_pcb_sensors"
+				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2834,7 +3193,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1705"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -3051,6 +3410,73 @@
 			(project "Flex_pcb_sensors"
 				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 129.54 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bc27f71-0176-4899-a13d-b370eadf800e")
+		(property "Reference" "J8"
+			(at 132.08 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 132.08 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e2243c8-4080-40aa-bda0-d56cb17ba9d5")
+		)
+		(instances
+			(project "Flex_pcb_sensors"
+				(path "/e481a0a7-d92f-423b-8454-fe10047fa3c9"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3393,7 +3819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 82.55 90.17 0)
 			(effects
 				(font

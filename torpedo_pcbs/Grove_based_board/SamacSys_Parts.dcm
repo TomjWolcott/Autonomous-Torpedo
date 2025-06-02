@@ -222,4 +222,58 @@ K
 F https://www.arrow.com/en/products/ssm3k339rlf/toshiba
 $ENDCMP
 #
+$CMP STM32G473CBT6
+D LQFP48
+K
+F https://www.st.com/resource/en/datasheet/stm32g473cb.pdf
+$ENDCMP
+#
+$CMP STM32G473CEU6
+D MCU 32-bit ARM Cortex M4 RISC 512KB Flash 3.3V 48-Pin UFQFPN EP Tray
+K
+F https://www.st.com/resource/en/datasheet/stm32g473cb.pdf
+$ENDCMP
+#
+$CMP FH34SRJ-22S-0.5SH_99_
+D Hirose FH34SRJ Series 0.5mm Pitch 22 Way Straight SMT Female FPC Connector Locking Mechanism
+K
+F https://www.hirose.com/en/product/document?clcode=CL0580-1254-3-99&productname=FH34SRJ-22S-0.5SH(99)&series=FH34SRJ&documenttype=2DDrawing&lang=en&documentid=0000990903
+$ENDCMP
+#
+$CMP FH34SRJ-4S-0.5SH_50_
+D 4 Position FFC, FPC Connector Contacts, Top and Bottom 0.020" (0.50mm) Surface Mount, Right Angle , 50V , 0.5A , -55C ~ 105C
+K
+F https://www.hirose.com/en/product/document?clcode=CL0580-1238-7-50&productname=FH34SRJ-4S-0.5SH(50)&series=FH34SRJ&documenttype=2DDrawing&lang=en&documentid=0001483059
+$ENDCMP
+#
+$CMP 1770940
+D PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 8, Number of rows: 1, Number of positions per row: 8, product range: PTSM 0,5/..-H-THR, pitch: 2.5 mm, connection method: Push-in spring connection, mounting: THR soldering, conductor/PCB connection direction: 0 ?, color: black, Pin layout: Linear double pinning, Solder pin [P]: 2.1 mm, type of packaging: 32 mm wide tape
+K
+F http://www.phoenixcontact.net/product/1770940
+$ENDCMP
+#
+$CMP SI1967DH-T1-GE3
+D MOSFET -20V Vds 8V Vgs SC70-6
+K
+F https://componentsearchengine.com/Datasheets/2/SI1967DH-T1-GE3.pdf
+$ENDCMP
+#
+$CMP SI4435DDY-T1-GE3
+D SI4435DDY-T1-GE3, P-channel MOSFET Transistor 8.1A 30V, 8-Pin SOIC
+K
+F https://www.vishay.com/docs/68841/si4435ddy.pdf
+$ENDCMP
+#
+$CMP ICM-42688-P
+D IMU (Inertial Measurement Unit), 6-Axis, Accelerometer, Gyroscope
+K
+F https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/DS-000347-ICM-42688-P-v1.5.pdf
+$ENDCMP
+#
+$CMP MMC5983MA-B
+D DEV BOARD FOR MMC5983MA
+K
+F https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -68,7 +68,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -97,7 +97,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -478,8 +478,8 @@
       "gencad": "../../../../Downloads/Flex_pcb_sensors.cad",
       "idf": "../../../../Downloads/Flex_pcb_sensors.emn",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "../../../../Downloads/May31 JLCPCB Order/AT-sensors/",
+      "pos_files": "../../../../Downloads/may17_tests/flex_pcb/",
       "specctra_dsn": "",
       "step": "../../../../Downloads/Flex_pcb_sensors.step",
       "svg": "",
@@ -510,7 +510,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -519,7 +519,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -534,10 +534,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -594,10 +594,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

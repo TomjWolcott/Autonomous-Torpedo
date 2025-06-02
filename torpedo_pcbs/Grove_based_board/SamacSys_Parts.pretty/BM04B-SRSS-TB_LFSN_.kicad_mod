@@ -6,7 +6,7 @@
 	(descr "BM04B-SRSS-TB(LFSN)")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 2.689 -0.686 0)
+		(at 0.034 0.014 0)
 		(layer "F.SilkS")
 		(uuid "f0d8110c-3b96-434d-b576-3c270b10e6cf")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "BM04B-SRSS-TB(LFSN)"
-		(at 2.689 -0.686 0)
+		(at 0.034 0.014 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "3b461326-d81a-4a20-83ee-2caa6baae348")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at -2.655 0.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -2.655 0.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -53,7 +53,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -2.655 0.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 0 0)
-		(end 0 -0.928)
+		(start -2.655 0.7)
+		(end -2.655 -0.228)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "0f9273fa-3fe7-45ef-bafc-75ea90b3494a")
 	)
 	(fp_line
-		(start 0 0.1)
-		(end 0.987 0.1)
+		(start -2.655 0.8)
+		(end -1.668 0.8)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -86,8 +86,8 @@
 		(uuid "a8b4638f-1aaa-472e-a716-2238d60066c7")
 	)
 	(fp_line
-		(start 1.113 -2.8)
-		(end 4.901 -2.8)
+		(start -1.542 -2.1)
+		(end 2.246 -2.1)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -96,8 +96,8 @@
 		(uuid "d5e5c666-5740-4272-bb49-a8941bc78b4a")
 	)
 	(fp_line
-		(start 6 0.1)
-		(end 4.955 0.1)
+		(start 3.345 0.8)
+		(end 2.3 0.8)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -106,8 +106,8 @@
 		(uuid "839c7a58-a7ce-4659-b451-71359c006431")
 	)
 	(fp_line
-		(start 6 0.1)
-		(end 6 -1.009)
+		(start 3.345 0.8)
+		(end 3.345 -0.309)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -116,8 +116,8 @@
 		(uuid "a2311013-0e0d-4382-b9a9-579fb28df37b")
 	)
 	(fp_circle
-		(center 0.689 1.219)
-		(end 0.689 1.282)
+		(center -1.966 1.919)
+		(end -1.966 1.982)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -127,8 +127,8 @@
 		(uuid "59195c3a-a044-46fe-a44e-9510c3328130")
 	)
 	(fp_line
-		(start 0 -2.8)
-		(end 6 -2.8)
+		(start -2.655 -2.1)
+		(end 3.345 -2.1)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -137,8 +137,8 @@
 		(uuid "9dc93286-6a2a-4145-a3bf-69ed6becd7a1")
 	)
 	(fp_line
-		(start 0 0.1)
-		(end 0 -2.8)
+		(start -2.655 0.8)
+		(end -2.655 -2.1)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -147,8 +147,8 @@
 		(uuid "848d4dfe-82be-4ce0-8e93-3a26ba0eef56")
 	)
 	(fp_line
-		(start 6 -2.8)
-		(end 6 0.1)
+		(start 3.345 -2.1)
+		(end 3.345 0.8)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -157,8 +157,8 @@
 		(uuid "398ae3db-aca1-4ea0-82b3-e5565ce2f2c7")
 	)
 	(fp_line
-		(start 6 0.1)
-		(end 0 0.1)
+		(start 3.345 0.8)
+		(end -2.655 0.8)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -167,7 +167,7 @@
 		(uuid "fad736dd-ba77-4f6c-8e8a-8bdef8aaa4ec")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.689 -0.686 0)
+		(at 0.034 0.014 0)
 		(layer "F.Fab")
 		(uuid "f5d2626a-9e52-4698-942b-d2fbc9735c89")
 		(effects
@@ -178,44 +178,44 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 1.5 0.45)
+		(at -1.155 1.15)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "20effbaa-f716-4ae1-958c-59a4e1fd4020")
 	)
 	(pad "2" smd rect
-		(at 2.5 0.45)
+		(at -0.155 1.15)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1942e874-db69-4c0f-9107-6046b4f2ae67")
 	)
 	(pad "3" smd rect
-		(at 3.5 0.45)
+		(at 0.845 1.15)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3938bf1a-c439-4bd7-8fba-cee0762546f6")
 	)
 	(pad "4" smd rect
-		(at 4.5 0.45)
+		(at 1.845 1.15)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3bc87b59-7462-4b27-939a-38bd06828e56")
 	)
 	(pad "5" smd rect
-		(at 0.2 -2.075)
+		(at -2.455 -1.375)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "34b9035d-f325-4574-bbba-1864454dac31")
 	)
 	(pad "6" smd rect
-		(at 5.8 -2.075)
+		(at 3.145 -1.375)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "084dfb12-6a31-448e-ab71-cbb84431f21e")
 	)
 	(model "${KIPRJMOD}/SamacSys_Parts.3dshapes/BM04B-SRSS-TB_LF__SN_.stp"
 		(offset
-			(xyz 54.31000056 13.10000018 -20.45000046)
+			(xyz 51.65 12.3 -20.45)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,4 +1,4 @@
-23249849162512000
+23263894536139639
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87248,6 +87248,13 @@ Fuse
 2
 2
 SamacSys_Parts
+1770940
+1770940
+Connector
+0
+16
+16
+SamacSys_Parts
 17444468
 1744446-8-3
 Connector
@@ -87318,9 +87325,30 @@ Diode
 2
 2
 SamacSys_Parts
+FH34SRJ4S05SH50
+FH34SRJ-4S-0.5SH(50)-4
+Connector
+0
+6
+6
+SamacSys_Parts
+FH34SRJ22S05SH99
+FH34SRJ-22S-0.5SH(99)-1
+Connector
+0
+24
+24
+SamacSys_Parts
 FTSH-107-XX-YYY-DV-K-P-TR
 FTSH-107-XX-YYY-DV-K-P-TR
 Connector
+0
+14
+14
+SamacSys_Parts
+IIM42352
+14 Lead LGA (2.5x3x0.91)_1
+Integrated Circuit
 0
 14
 14
@@ -87367,6 +87395,13 @@ Connector
 2
 2
 SamacSys_Parts
+MMC5983MAB
+16-VFLGA
+Integrated Circuit
+0
+16
+16
+SamacSys_Parts
 MSK12C02
 MSK12C02-1
 Switch
@@ -87408,6 +87443,20 @@ Integrated Circuit
 0
 49
 49
+SamacSys_Parts
+QFN50P700X700X65-49N-D
+UFQFPN is 48 leads, 7x7 mm, 0.5 mm pitch
+Integrated Circuit
+0
+49
+49
+SamacSys_Parts
+QFP50P900X900X160-48N
+LQFP - 48 pins
+Integrated Circuit
+0
+48
+48
 SamacSys_Parts
 SHDRRA8W64P0X250_1X8_2250X820X420P
 S8B-EH(LF)(SN)
@@ -87457,6 +87506,13 @@ MOSFET (P-Channel)
 0
 3
 3
+SamacSys_Parts
+SOT65P210X110-6N
+SC-70 6 LEADS
+Transistor
+0
+6
+6
 SamacSys_Parts
 SOT95P270X145-5N
 5-Lead (OT) SOT-23

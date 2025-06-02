@@ -1,4 +1,4 @@
-23173167457240645
+23180199300526974
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6614,6 +6614,20 @@ tag connect programming header pogo pins
 0
 14
 14
+Connector
+fpc_15pin_1.0
+
+
+0
+15
+15
+Connector
+fpc_22pin_0.5
+
+
+0
+22
+22
 Connector_AMASS
 AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal
 Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf
@@ -87240,6 +87254,13 @@ Integrated Circuit
 0
 12
 12
+SamacSys_Parts
+VL53L5CXV0GC1
+VL53L5CXV0GC/1
+Integrated Circuit
+0
+18
+18
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -94835,3 +94856,10 @@ EN10HT1212N5HH3
 0
 5
 5
+switches_and_dials
+SMT G leads
+
+
+0
+2
+2
